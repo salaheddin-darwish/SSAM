@@ -1,4 +1,4 @@
-# SSAM - Server-based Security Architecture for MANETs
+# SSAM -- Server-based Security Architecture for MANETs
 The project of Server-based Security Architecture for MANETs (SSAM)
 
 OMNeT++ Release version 4.1
