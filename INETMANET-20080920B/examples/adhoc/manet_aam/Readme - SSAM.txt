@@ -1,0 +1,1 @@
+This is project of Server-based Security Architecture Model (SSAM) 

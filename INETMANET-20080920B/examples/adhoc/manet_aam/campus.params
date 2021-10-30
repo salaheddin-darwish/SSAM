@@ -1,0 +1,4 @@
+model=ChainScenario
+linkModelParams=campus-RandomWaypoint-0
+linkModelParams=campus-ManhattanGrid-1
+modeAll=campus-ALL

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/INETMANET-20080920B/examples/adhoc/manet_aam/results/StaticGridMobility-*.vec"/>
+    <inputs name="/INETMANET-20080920B/examples/adhoc/manet_aam/results/StaticGridMobility-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="Service Buffer Length">
+      <items xsi:type="scave:Add" filterPattern="module(Net_Manet_AAM.AuthNMAN[0].udpApp[0]) AND name(&quot;queue length&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:Group" name="temp3">
+        <items xsi:type="scave:Apply" operation="mean"/>
+        <items xsi:type="scave:LineChart" name="Service Buffer " lineNameFormat="">
+          <properties name="Symbols.Type" value="None"/>
+          <properties name="Line.Type" value="SampleHold"/>
+        </items>
+      </items>
+    </datasets>
+    <datasets name="Dropped Requests">
+      <items xsi:type="scave:Add" filterPattern="module(Net_Manet_AAM.AuthNMAN[0].udpApp[0]) AND name(drops)" type="VECTOR"/>
+      <items xsi:type="scave:Group" name="temp4">
+        <items xsi:type="scave:Apply" operation="mean"/>
+        <items xsi:type="scave:LineChart" name="Authentication Requests Drops" lineNameFormat="">
+          <properties name="Symbols.Type" value="None"/>
+          <properties name="Line.Type" value="SampleHold"/>
+        </items>
+      </items>
+    </datasets>
+    <datasets name="RTT">
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[36].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[55].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[45].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[44].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[63].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[37].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[52].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[43].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[33].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[34].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[64].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[72].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[23].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[75].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[74].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[35].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[66].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[22].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[31].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[1].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[62].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[85].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[54].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[28].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[18].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[71].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[59].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[48].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[29].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[97].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[77].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[13].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[53].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[98].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[2].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[95].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[94].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[76].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[27].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[56].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[69].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[65].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[67].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[68].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[79].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[39].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[46].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[50].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[41].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[58].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[16].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[12].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[15].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[5].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[86].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[40].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[21].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[88].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[11].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[47].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[10].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[70].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[30].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[0].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[92].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[78].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[99].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[7].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[83].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[84].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[9].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[51].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[32].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[87].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[96].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[26].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[42].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[61].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[89].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="run(StaticGridMobility-0-20110922-00:45:38-22510) AND module(Net_Manet_AAM.userhost[25].udpApp[0]) AND name(&quot;Round Trip Time&quot;)"/>
+      <items xsi:type="scave:Group" name="ERR">
+        <items xsi:type="scave:Apply" operation="mean"/>
+        <items xsi:type="scave:LineChart">
+          <filters xsi:type="scave:Select" filterPattern="&quot;Round Trip Time&quot; " type="VECTOR"/>
+        </items>
+      </items>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.2/@items.80/@items.1"/>
+  </chartSheets>
+</scave:Analysis>

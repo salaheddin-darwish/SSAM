@@ -1,0 +1,3 @@
+AuthNMAN[0]
+AuthNMAN[1]
+AuthNMAN[2]

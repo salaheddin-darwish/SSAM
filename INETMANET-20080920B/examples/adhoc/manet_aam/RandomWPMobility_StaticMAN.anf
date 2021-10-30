@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/INETMANET-20080920B/examples/adhoc/manet_aam/results/RandomWPMobility_StaticMAN-*.vec"/>
+    <inputs name="/INETMANET-20080920B/examples/adhoc/manet_aam/results/RandomWPMobility_StaticMAN-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="my_test_Cre_del">
+      <items xsi:type="scave:Add" filterPattern="module(Net_Manet_AAM_Temp.AAMDynamicConfigurator) AND name(Nodes-CreationTime)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(Net_Manet_AAM_Temp.AAMDynamicConfigurator) AND name(Nodes-DeletionTime)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name=""/>
+    </datasets>
+  </datasets>
+  <chartSheets/>
+</scave:Analysis>

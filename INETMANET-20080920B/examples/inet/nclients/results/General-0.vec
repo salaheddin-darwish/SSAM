@@ -1,0 +1,2626 @@
+version 2
+run General-0-20110925-16:25:43-6112
+attr configname General
+attr datetime 20110925-16:25:43
+attr experiment General
+attr inifile /home/samd/samples/INETMANET-20080920B/examples/inet/nclients/basicHTTP.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network NClients
+attr processid 6112
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 208  NClients.cli[0].tcp  "sent ack"  ETV
+vector 220  NClients.cli[1].tcp  "sent ack"  ETV
+vector 232  NClients.cli[2].tcp  "sent ack"  ETV
+vector 244  NClients.cli[3].tcp  "sent ack"  ETV
+vector 256  NClients.cli[4].tcp  "sent ack"  ETV
+vector 268  NClients.cli[5].tcp  "sent ack"  ETV
+vector 280  NClients.cli[6].tcp  "sent ack"  ETV
+vector 292  NClients.cli[7].tcp  "sent ack"  ETV
+vector 304  NClients.cli[8].tcp  "sent ack"  ETV
+vector 316  NClients.cli[9].tcp  "sent ack"  ETV
+vector 328  NClients.cli[10].tcp  "sent ack"  ETV
+vector 340  NClients.cli[11].tcp  "sent ack"  ETV
+vector 352  NClients.cli[12].tcp  "sent ack"  ETV
+vector 364  NClients.cli[13].tcp  "sent ack"  ETV
+vector 376  NClients.cli[14].tcp  "sent ack"  ETV
+vector 388  NClients.cli[15].tcp  "sent ack"  ETV
+vector 400  NClients.cli[16].tcp  "sent ack"  ETV
+vector 412  NClients.cli[17].tcp  "sent ack"  ETV
+vector 424  NClients.cli[18].tcp  "sent ack"  ETV
+vector 436  NClients.cli[19].tcp  "sent ack"  ETV
+vector 448  NClients.cli[20].tcp  "sent ack"  ETV
+vector 460  NClients.cli[21].tcp  "sent ack"  ETV
+vector 472  NClients.cli[22].tcp  "sent ack"  ETV
+vector 484  NClients.cli[23].tcp  "sent ack"  ETV
+vector 496  NClients.cli[24].tcp  "sent ack"  ETV
+vector 508  NClients.cli[25].tcp  "sent ack"  ETV
+vector 520  NClients.cli[26].tcp  "sent ack"  ETV
+vector 532  NClients.cli[27].tcp  "sent ack"  ETV
+vector 544  NClients.cli[28].tcp  "sent ack"  ETV
+vector 556  NClients.cli[29].tcp  "sent ack"  ETV
+vector 60  NClients.r1.ppp[30].queue  "queue length"  ETV
+vector 61  NClients.r1.ppp[30].queue  drops  ETV
+vector 197  NClients.srv.tcp  "rcvd seq"  ETV
+vector 198  NClients.srv.tcp  "rcvd ack"  ETV
+vector 194  NClients.srv.tcp  "send window"  ETV
+vector 196  NClients.srv.tcp  "sent ack"  ETV
+vector 569  NClients.srv.tcp  "rcvd seq"  ETV
+vector 570  NClients.srv.tcp  "rcvd ack"  ETV
+vector 566  NClients.srv.tcp  "send window"  ETV
+vector 568  NClients.srv.tcp  "sent ack"  ETV
+vector 581  NClients.srv.tcp  "rcvd seq"  ETV
+vector 582  NClients.srv.tcp  "rcvd ack"  ETV
+vector 578  NClients.srv.tcp  "send window"  ETV
+vector 580  NClients.srv.tcp  "sent ack"  ETV
+vector 593  NClients.srv.tcp  "rcvd seq"  ETV
+vector 594  NClients.srv.tcp  "rcvd ack"  ETV
+vector 590  NClients.srv.tcp  "send window"  ETV
+vector 592  NClients.srv.tcp  "sent ack"  ETV
+vector 605  NClients.srv.tcp  "rcvd seq"  ETV
+vector 606  NClients.srv.tcp  "rcvd ack"  ETV
+vector 602  NClients.srv.tcp  "send window"  ETV
+vector 604  NClients.srv.tcp  "sent ack"  ETV
+vector 209  NClients.cli[0].tcp  "rcvd seq"  ETV
+vector 210  NClients.cli[0].tcp  "rcvd ack"  ETV
+vector 206  NClients.cli[0].tcp  "send window"  ETV
+vector 212  NClients.cli[0].tcp  cwnd  ETV
+vector 207  NClients.cli[0].tcp  "send seq"  ETV
+vector 211  NClients.cli[0].tcp  "unacked bytes"  ETV
+vector 72  NClients.cli[0].ppp[0].queue  "queue length"  ETV
+vector 617  NClients.srv.tcp  "rcvd seq"  ETV
+vector 618  NClients.srv.tcp  "rcvd ack"  ETV
+vector 614  NClients.srv.tcp  "send window"  ETV
+vector 616  NClients.srv.tcp  "sent ack"  ETV
+vector 221  NClients.cli[1].tcp  "rcvd seq"  ETV
+vector 222  NClients.cli[1].tcp  "rcvd ack"  ETV
+vector 218  NClients.cli[1].tcp  "send window"  ETV
+vector 224  NClients.cli[1].tcp  cwnd  ETV
+vector 219  NClients.cli[1].tcp  "send seq"  ETV
+vector 223  NClients.cli[1].tcp  "unacked bytes"  ETV
+vector 76  NClients.cli[1].ppp[0].queue  "queue length"  ETV
+vector 629  NClients.srv.tcp  "rcvd seq"  ETV
+vector 630  NClients.srv.tcp  "rcvd ack"  ETV
+vector 626  NClients.srv.tcp  "send window"  ETV
+vector 628  NClients.srv.tcp  "sent ack"  ETV
+vector 233  NClients.cli[2].tcp  "rcvd seq"  ETV
+vector 234  NClients.cli[2].tcp  "rcvd ack"  ETV
+vector 230  NClients.cli[2].tcp  "send window"  ETV
+vector 236  NClients.cli[2].tcp  cwnd  ETV
+vector 231  NClients.cli[2].tcp  "send seq"  ETV
+vector 235  NClients.cli[2].tcp  "unacked bytes"  ETV
+vector 80  NClients.cli[2].ppp[0].queue  "queue length"  ETV
+vector 641  NClients.srv.tcp  "rcvd seq"  ETV
+vector 642  NClients.srv.tcp  "rcvd ack"  ETV
+vector 638  NClients.srv.tcp  "send window"  ETV
+vector 640  NClients.srv.tcp  "sent ack"  ETV
+vector 245  NClients.cli[3].tcp  "rcvd seq"  ETV
+vector 246  NClients.cli[3].tcp  "rcvd ack"  ETV
+vector 242  NClients.cli[3].tcp  "send window"  ETV
+vector 248  NClients.cli[3].tcp  cwnd  ETV
+vector 243  NClients.cli[3].tcp  "send seq"  ETV
+vector 247  NClients.cli[3].tcp  "unacked bytes"  ETV
+vector 84  NClients.cli[3].ppp[0].queue  "queue length"  ETV
+vector 653  NClients.srv.tcp  "rcvd seq"  ETV
+vector 654  NClients.srv.tcp  "rcvd ack"  ETV
+vector 650  NClients.srv.tcp  "send window"  ETV
+vector 652  NClients.srv.tcp  "sent ack"  ETV
+vector 257  NClients.cli[4].tcp  "rcvd seq"  ETV
+vector 258  NClients.cli[4].tcp  "rcvd ack"  ETV
+vector 254  NClients.cli[4].tcp  "send window"  ETV
+vector 260  NClients.cli[4].tcp  cwnd  ETV
+vector 255  NClients.cli[4].tcp  "send seq"  ETV
+vector 259  NClients.cli[4].tcp  "unacked bytes"  ETV
+vector 88  NClients.cli[4].ppp[0].queue  "queue length"  ETV
+vector 665  NClients.srv.tcp  "rcvd seq"  ETV
+vector 666  NClients.srv.tcp  "rcvd ack"  ETV
+vector 662  NClients.srv.tcp  "send window"  ETV
+vector 664  NClients.srv.tcp  "sent ack"  ETV
+vector 269  NClients.cli[5].tcp  "rcvd seq"  ETV
+vector 270  NClients.cli[5].tcp  "rcvd ack"  ETV
+vector 266  NClients.cli[5].tcp  "send window"  ETV
+vector 272  NClients.cli[5].tcp  cwnd  ETV
+vector 267  NClients.cli[5].tcp  "send seq"  ETV
+vector 271  NClients.cli[5].tcp  "unacked bytes"  ETV
+vector 92  NClients.cli[5].ppp[0].queue  "queue length"  ETV
+vector 677  NClients.srv.tcp  "rcvd seq"  ETV
+vector 678  NClients.srv.tcp  "rcvd ack"  ETV
+vector 674  NClients.srv.tcp  "send window"  ETV
+vector 676  NClients.srv.tcp  "sent ack"  ETV
+vector 281  NClients.cli[6].tcp  "rcvd seq"  ETV
+vector 282  NClients.cli[6].tcp  "rcvd ack"  ETV
+vector 278  NClients.cli[6].tcp  "send window"  ETV
+vector 284  NClients.cli[6].tcp  cwnd  ETV
+vector 279  NClients.cli[6].tcp  "send seq"  ETV
+vector 283  NClients.cli[6].tcp  "unacked bytes"  ETV
+vector 96  NClients.cli[6].ppp[0].queue  "queue length"  ETV
+vector 200  NClients.srv.tcp  cwnd  ETV
+vector 199  NClients.srv.tcp  "unacked bytes"  ETV
+vector 293  NClients.cli[7].tcp  "rcvd seq"  ETV
+vector 294  NClients.cli[7].tcp  "rcvd ack"  ETV
+vector 290  NClients.cli[7].tcp  "send window"  ETV
+vector 296  NClients.cli[7].tcp  cwnd  ETV
+vector 291  NClients.cli[7].tcp  "send seq"  ETV
+vector 295  NClients.cli[7].tcp  "unacked bytes"  ETV
+vector 100  NClients.cli[7].ppp[0].queue  "queue length"  ETV
+vector 572  NClients.srv.tcp  cwnd  ETV
+vector 571  NClients.srv.tcp  "unacked bytes"  ETV
+vector 305  NClients.cli[8].tcp  "rcvd seq"  ETV
+vector 306  NClients.cli[8].tcp  "rcvd ack"  ETV
+vector 302  NClients.cli[8].tcp  "send window"  ETV
+vector 308  NClients.cli[8].tcp  cwnd  ETV
+vector 303  NClients.cli[8].tcp  "send seq"  ETV
+vector 307  NClients.cli[8].tcp  "unacked bytes"  ETV
+vector 104  NClients.cli[8].ppp[0].queue  "queue length"  ETV
+vector 584  NClients.srv.tcp  cwnd  ETV
+vector 583  NClients.srv.tcp  "unacked bytes"  ETV
+vector 317  NClients.cli[9].tcp  "rcvd seq"  ETV
+vector 318  NClients.cli[9].tcp  "rcvd ack"  ETV
+vector 314  NClients.cli[9].tcp  "send window"  ETV
+vector 320  NClients.cli[9].tcp  cwnd  ETV
+vector 315  NClients.cli[9].tcp  "send seq"  ETV
+vector 319  NClients.cli[9].tcp  "unacked bytes"  ETV
+vector 108  NClients.cli[9].ppp[0].queue  "queue length"  ETV
+vector 596  NClients.srv.tcp  cwnd  ETV
+vector 595  NClients.srv.tcp  "unacked bytes"  ETV
+vector 329  NClients.cli[10].tcp  "rcvd seq"  ETV
+vector 330  NClients.cli[10].tcp  "rcvd ack"  ETV
+vector 326  NClients.cli[10].tcp  "send window"  ETV
+vector 332  NClients.cli[10].tcp  cwnd  ETV
+vector 327  NClients.cli[10].tcp  "send seq"  ETV
+vector 331  NClients.cli[10].tcp  "unacked bytes"  ETV
+vector 112  NClients.cli[10].ppp[0].queue  "queue length"  ETV
+vector 608  NClients.srv.tcp  cwnd  ETV
+vector 607  NClients.srv.tcp  "unacked bytes"  ETV
+vector 620  NClients.srv.tcp  cwnd  ETV
+vector 619  NClients.srv.tcp  "unacked bytes"  ETV
+vector 632  NClients.srv.tcp  cwnd  ETV
+vector 631  NClients.srv.tcp  "unacked bytes"  ETV
+vector 644  NClients.srv.tcp  cwnd  ETV
+vector 643  NClients.srv.tcp  "unacked bytes"  ETV
+vector 656  NClients.srv.tcp  cwnd  ETV
+vector 655  NClients.srv.tcp  "unacked bytes"  ETV
+vector 64  NClients.r2.ppp[1].queue  "queue length"  ETV
+vector 68  NClients.r3.ppp[1].queue  "queue length"  ETV
+vector 195  NClients.srv.tcp  "send seq"  ETV
+vector 192  NClients.srv.ppp[0].queue  "queue length"  ETV
+vector 668  NClients.srv.tcp  cwnd  ETV
+vector 667  NClients.srv.tcp  "unacked bytes"  ETV
+vector 214  NClients.cli[0].tcp  "measured RTT"  ETV
+vector 215  NClients.cli[0].tcp  "smoothed RTT"  ETV
+vector 216  NClients.cli[0].tcp  RTTVAR  ETV
+vector 217  NClients.cli[0].tcp  RTO  ETV
+vector 567  NClients.srv.tcp  "send seq"  ETV
+vector 680  NClients.srv.tcp  cwnd  ETV
+vector 679  NClients.srv.tcp  "unacked bytes"  ETV
+vector 579  NClients.srv.tcp  "send seq"  ETV
+vector 66  NClients.r3.ppp[0].queue  "queue length"  ETV
+vector 591  NClients.srv.tcp  "send seq"  ETV
+vector 603  NClients.srv.tcp  "send seq"  ETV
+vector 615  NClients.srv.tcp  "send seq"  ETV
+vector 62  NClients.r2.ppp[0].queue  "queue length"  ETV
+vector 627  NClients.srv.tcp  "send seq"  ETV
+vector 639  NClients.srv.tcp  "send seq"  ETV
+vector 651  NClients.srv.tcp  "send seq"  ETV
+vector 226  NClients.cli[1].tcp  "measured RTT"  ETV
+vector 227  NClients.cli[1].tcp  "smoothed RTT"  ETV
+vector 228  NClients.cli[1].tcp  RTTVAR  ETV
+vector 229  NClients.cli[1].tcp  RTO  ETV
+vector 238  NClients.cli[2].tcp  "measured RTT"  ETV
+vector 239  NClients.cli[2].tcp  "smoothed RTT"  ETV
+vector 240  NClients.cli[2].tcp  RTTVAR  ETV
+vector 241  NClients.cli[2].tcp  RTO  ETV
+vector 250  NClients.cli[3].tcp  "measured RTT"  ETV
+vector 251  NClients.cli[3].tcp  "smoothed RTT"  ETV
+vector 252  NClients.cli[3].tcp  RTTVAR  ETV
+vector 253  NClients.cli[3].tcp  RTO  ETV
+vector 202  NClients.srv.tcp  "measured RTT"  ETV
+vector 203  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 204  NClients.srv.tcp  RTTVAR  ETV
+vector 205  NClients.srv.tcp  RTO  ETV
+vector 574  NClients.srv.tcp  "measured RTT"  ETV
+vector 575  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 576  NClients.srv.tcp  RTTVAR  ETV
+vector 577  NClients.srv.tcp  RTO  ETV
+vector 193  NClients.srv.ppp[0].queue  drops  ETV
+vector 586  NClients.srv.tcp  "measured RTT"  ETV
+vector 587  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 588  NClients.srv.tcp  RTTVAR  ETV
+vector 589  NClients.srv.tcp  RTO  ETV
+vector 262  NClients.cli[4].tcp  "measured RTT"  ETV
+vector 263  NClients.cli[4].tcp  "smoothed RTT"  ETV
+vector 264  NClients.cli[4].tcp  RTTVAR  ETV
+vector 265  NClients.cli[4].tcp  RTO  ETV
+vector 598  NClients.srv.tcp  "measured RTT"  ETV
+vector 599  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 600  NClients.srv.tcp  RTTVAR  ETV
+vector 601  NClients.srv.tcp  RTO  ETV
+vector 274  NClients.cli[5].tcp  "measured RTT"  ETV
+vector 275  NClients.cli[5].tcp  "smoothed RTT"  ETV
+vector 276  NClients.cli[5].tcp  RTTVAR  ETV
+vector 277  NClients.cli[5].tcp  RTO  ETV
+vector 610  NClients.srv.tcp  "measured RTT"  ETV
+vector 611  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 612  NClients.srv.tcp  RTTVAR  ETV
+vector 613  NClients.srv.tcp  RTO  ETV
+vector 286  NClients.cli[6].tcp  "measured RTT"  ETV
+vector 287  NClients.cli[6].tcp  "smoothed RTT"  ETV
+vector 288  NClients.cli[6].tcp  RTTVAR  ETV
+vector 289  NClients.cli[6].tcp  RTO  ETV
+vector 622  NClients.srv.tcp  "measured RTT"  ETV
+vector 623  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 624  NClients.srv.tcp  RTTVAR  ETV
+vector 625  NClients.srv.tcp  RTO  ETV
+vector 298  NClients.cli[7].tcp  "measured RTT"  ETV
+vector 299  NClients.cli[7].tcp  "smoothed RTT"  ETV
+vector 300  NClients.cli[7].tcp  RTTVAR  ETV
+vector 301  NClients.cli[7].tcp  RTO  ETV
+vector 310  NClients.cli[8].tcp  "measured RTT"  ETV
+vector 311  NClients.cli[8].tcp  "smoothed RTT"  ETV
+vector 312  NClients.cli[8].tcp  RTTVAR  ETV
+vector 313  NClients.cli[8].tcp  RTO  ETV
+vector 646  NClients.srv.tcp  "measured RTT"  ETV
+vector 647  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 648  NClients.srv.tcp  RTTVAR  ETV
+vector 649  NClients.srv.tcp  RTO  ETV
+vector 634  NClients.srv.tcp  "measured RTT"  ETV
+vector 635  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 636  NClients.srv.tcp  RTTVAR  ETV
+vector 637  NClients.srv.tcp  RTO  ETV
+vector 658  NClients.srv.tcp  "measured RTT"  ETV
+vector 659  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 660  NClients.srv.tcp  RTTVAR  ETV
+vector 661  NClients.srv.tcp  RTO  ETV
+644	1062	1.0008276	1024
+644	1062	1.0008276	2048
+644	2066	1.009585999999	3072
+646	2066	1.009585999999	0.005516799999
+647	2066	1.009585999999	0.000689599999
+648	2066	1.009585999999	0.6569396
+649	2066	1.009585999999	2.628447999999
+638	603	1.000414	14336
+638	1062	1.0008276	14336
+638	2066	1.009585999999	14336
+639	1411	1.0040692	250104
+640	603	1.000414	250001
+640	1408	1.0040692	250312
+640	1411	1.0040692	250312
+640	2071	1.009623599999	250313
+640	2074	1.009623599999	250313
+641	603	1.000414	250000
+641	1062	1.0008276	250001
+641	1408	1.0040692	250001
+641	2066	1.009585999999	250312
+641	2071	1.009623599999	250312
+641	2576	1.014190799999	250313
+642	603	1.000414	0
+642	1062	1.0008276	250104
+642	1408	1.0040692	250104
+642	2066	1.009585999999	250217
+642	2071	1.009623599999	250217
+642	2576	1.014190799999	250218
+643	1062	1.0008276	0
+643	1411	1.0040692	113
+643	2066	1.009585999999	0
+643	2074	1.009623599999	1
+608	1000	1.0007148	1024
+608	1000	1.0007148	2048
+608	1853	1.007503599999	3072
+608	2346	1.012627599999	4096
+610	1853	1.007503599999	0.004341599999
+610	2346	1.012627599999	0.005124
+611	1853	1.007503599999	0.000542699999
+611	2346	1.012627599999	0.001115362499
+612	1853	1.007503599999	0.6567927
+612	2346	1.012627599999	0.575266275001
+613	1853	1.007503599999	2.627713499999
+613	2346	1.012627599999	2.302180462503
+602	446	1.0003012	14336
+602	1000	1.0007148	14336
+602	1853	1.007503599999	14336
+602	2346	1.012627599999	14336
+603	1297	1.003162	250076
+603	1853	1.007503599999	251100
+604	446	1.0003012	250001
+604	1294	1.003162	250338
+604	1297	1.003162	250338
+604	1853	1.007503599999	250338
+604	2351	1.012665199999	250339
+604	2354	1.012665199999	250339
+605	446	1.0003012	250000
+605	1000	1.0007148	250001
+605	1294	1.003162	250001
+605	1853	1.007503599999	250338
+605	2346	1.012627599999	250338
+605	2351	1.012665199999	250338
+605	2876	1.016063599999	250339
+606	446	1.0003012	0
+606	1000	1.0007148	250076
+606	1294	1.003162	250076
+606	1853	1.007503599999	251100
+606	2346	1.012627599999	251382
+606	2351	1.012665199999	251382
+606	2876	1.016063599999	251383
+607	1000	1.0007148	0
+607	1297	1.003162	1024
+607	1853	1.007503599999	0
+607	1853	1.007503599999	282
+607	2346	1.012627599999	0
+607	2354	1.012665199999	1
+200	819	1.0005644	1024
+200	819	1.0005644	2048
+200	1572	1.005402	3072
+200	2409	1.012842799999	4096
+202	1572	1.005402	0.003616
+202	2409	1.012842799999	0.007440799999
+203	1572	1.005402	0.000452
+203	2409	1.012842799999	0.001325599999
+204	1572	1.005402	0.656702
+204	2409	1.012842799999	0.57548785
+205	1572	1.005402	2.62726
+205	2409	1.012842799999	2.303276999999
+194	335	1.0001508	14336
+194	819	1.0005644	14336
+194	1572	1.005402	14336
+194	2409	1.012842799999	14336
+195	1134	1.001786	250038
+195	1572	1.005402	251062
+196	335	1.0001508	250001
+196	1131	1.001786	250369
+196	1134	1.001786	250369
+196	1572	1.005402	250369
+196	2414	1.012880399999	250370
+196	2417	1.012880399999	250370
+197	335	1.0001508	250000
+197	819	1.0005644	250001
+197	1131	1.001786	250001
+197	1572	1.005402	250369
+197	2409	1.012842799999	250369
+197	2414	1.012880399999	250369
+197	2897	1.016138799999	250370
+198	335	1.0001508	0
+198	819	1.0005644	250038
+198	1131	1.001786	250038
+198	1572	1.005402	251062
+198	2409	1.012842799999	252036
+198	2414	1.012880399999	252036
+198	2897	1.016138799999	252037
+199	819	1.0005644	0
+199	1134	1.001786	1024
+199	1572	1.005402	0
+199	1572	1.005402	974
+199	2409	1.012842799999	0
+199	2417	1.012880399999	1
+632	1047	1.00079	1024
+632	1047	1.00079	2048
+632	2108	1.010149199999	3072
+632	2622	1.014321199999	4096
+634	2108	1.010149199999	0.006366399999
+634	2622	1.014321199999	0.004172
+635	2108	1.010149199999	0.000795799999
+635	2622	1.014321199999	0.001217824999
+636	2108	1.010149199999	0.6570458
+636	2622	1.014321199999	0.575337100001
+637	2108	1.010149199999	2.628978999999
+637	2622	1.014321199999	2.302566225003
+626	549	1.0003764	14336
+626	1047	1.00079	14336
+626	2108	1.010149199999	14336
+626	2622	1.014321199999	14336
+627	1373	1.0037828	250095
+627	2108	1.010149199999	251119
+628	549	1.0003764	250001
+628	1370	1.0037828	250340
+628	1373	1.0037828	250340
+628	2108	1.010149199999	250340
+628	2627	1.014358799999	250341
+628	2630	1.014358799999	250341
+629	549	1.0003764	250000
+629	1047	1.00079	250001
+629	1370	1.0037828	250001
+629	2108	1.010149199999	250340
+629	2622	1.014321199999	250340
+629	2627	1.014358799999	250340
+629	2913	1.016213999999	250341
+630	549	1.0003764	0
+630	1047	1.00079	250095
+630	1370	1.0037828	250095
+630	2108	1.010149199999	251119
+630	2622	1.014321199999	251177
+630	2627	1.014358799999	251177
+630	2913	1.016213999999	251178
+631	1047	1.00079	0
+631	1373	1.0037828	1024
+631	2108	1.010149199999	0
+631	2108	1.010149199999	58
+631	2622	1.014321199999	0
+631	2630	1.014358799999	1
+620	1022	1.0007524	1024
+620	1022	1.0007524	2048
+620	1922	1.008397999999	3072
+620	1989	1.009254799999	4096
+620	2521	1.014077999999	5120
+620	2674	1.014934799999	6144
+620	2964	1.016528399999	7168
+622	1922	1.008397999999	0.004923999999
+622	2521	1.014077999999	0.00568
+622	2964	1.016528399999	0.0015936
+623	1922	1.008397999999	0.000615499999
+623	2521	1.014077999999	0.001248562499
+623	2964	1.016528399999	0.001291692186
+624	1922	1.008397999999	0.6568655
+624	2521	1.014077999999	0.575390375001
+624	2964	1.016528399999	0.503509707814
+625	1922	1.008397999999	2.628077499999
+625	2521	1.014077999999	2.302810062503
+625	2964	1.016528399999	2.015330523442
+614	495	1.0003388	14336
+614	1022	1.0007524	14336
+614	1922	1.008397999999	14336
+614	1989	1.009254799999	14336
+614	2521	1.014077999999	14336
+614	2674	1.014934799999	14336
+614	2964	1.016528399999	14336
+615	1331	1.003474	250085
+615	1331	1.003474	251109
+615	1922	1.008397999999	252133
+615	1922	1.008397999999	253157
+615	2674	1.014934799999	254181
+616	495	1.0003388	250001
+616	1328	1.003474	250344
+616	1331	1.003474	250344
+616	1331	1.003474	250344
+616	1922	1.008397999999	250344
+616	1922	1.008397999999	250344
+616	2674	1.014934799999	250344
+616	2969	1.016565999999	250345
+616	2972	1.016565999999	250345
+617	495	1.0003388	250000
+617	1022	1.0007524	250001
+617	1328	1.003474	250001
+617	1922	1.008397999999	250344
+617	1989	1.009254799999	250344
+617	2521	1.014077999999	250344
+617	2674	1.014934799999	250344
+617	2964	1.016528399999	250344
+617	2969	1.016565999999	250344
+617	3078	1.016905199999	250345
+618	495	1.0003388	0
+618	1022	1.0007524	250085
+618	1328	1.003474	250085
+618	1922	1.008397999999	251109
+618	1989	1.009254799999	252133
+618	2521	1.014077999999	253157
+618	2674	1.014934799999	254181
+618	2964	1.016528399999	254354
+618	2969	1.016565999999	254354
+618	3078	1.016905199999	254355
+619	1022	1.0007524	0
+619	1331	1.003474	2048
+619	1922	1.008397999999	1024
+619	1922	1.008397999999	3072
+619	1989	1.009254799999	2048
+619	2521	1.014077999999	1024
+619	2674	1.014934799999	0
+619	2674	1.014934799999	173
+619	2964	1.016528399999	0
+619	2972	1.016565999999	1
+656	1072	1.0008652	1024
+656	1072	1.0008652	2048
+656	2192	1.011209199999	3072
+656	2265	1.012065999999	4096
+656	2812	1.015950799999	5120
+656	3059	1.016807599999	6144
+656	3144	1.018369999999	7168
+658	2192	1.011209199999	0.006834399999
+658	2812	1.015950799999	0.0047416
+658	3144	1.018369999999	0.0015624
+659	2192	1.011209199999	0.000854299999
+659	2812	1.015950799999	0.001340212499
+659	3144	1.018369999999	0.001367985936
+660	2192	1.011209199999	0.6571043
+660	2812	1.015950799999	0.575452175001
+660	3144	1.018369999999	0.503548426564
+661	2192	1.011209199999	2.629271499999
+661	2812	1.015950799999	2.303148912503
+661	3144	1.018369999999	2.015561692192
+650	657	1.0004516	14336
+650	1072	1.0008652	14336
+650	2192	1.011209199999	14336
+650	2265	1.012065999999	14336
+650	2812	1.015950799999	14336
+650	3059	1.016807599999	14336
+650	3144	1.018369999999	14336
+651	1434	1.0043748	250113
+651	1434	1.0043748	251137
+651	2192	1.011209199999	252161
+651	2192	1.011209199999	253185
+651	3059	1.016807599999	254209
+652	657	1.0004516	250001
+652	1431	1.0043748	250336
+652	1434	1.0043748	250336
+652	1434	1.0043748	250336
+652	2192	1.011209199999	250336
+652	2192	1.011209199999	250336
+652	3059	1.016807599999	250336
+652	3149	1.018407599999	250337
+652	3152	1.018407599999	250337
+653	657	1.0004516	250000
+653	1072	1.0008652	250001
+653	1431	1.0043748	250001
+653	2192	1.011209199999	250336
+653	2265	1.012065999999	250336
+653	2812	1.015950799999	250336
+653	3059	1.016807599999	250336
+653	3144	1.018369999999	250336
+653	3149	1.018407599999	250336
+653	3225	1.018746799999	250337
+654	657	1.0004516	0
+654	1072	1.0008652	250113
+654	1431	1.0043748	250113
+654	2192	1.011209199999	251137
+654	2265	1.012065999999	252161
+654	2812	1.015950799999	253185
+654	3059	1.016807599999	254209
+654	3144	1.018369999999	254603
+654	3149	1.018407599999	254603
+654	3225	1.018746799999	254604
+655	1072	1.0008652	0
+655	1434	1.0043748	2048
+655	2192	1.011209199999	1024
+655	2192	1.011209199999	3072
+655	2265	1.012065999999	2048
+655	2812	1.015950799999	1024
+655	3059	1.016807599999	0
+655	3059	1.016807599999	394
+655	3144	1.018369999999	0
+655	3152	1.018407599999	1
+vector 689  NClients.srv.tcp  "rcvd seq"  ETV
+vector 690  NClients.srv.tcp  "rcvd ack"  ETV
+vector 686  NClients.srv.tcp  "send window"  ETV
+vector 688  NClients.srv.tcp  "sent ack"  ETV
+vector 701  NClients.srv.tcp  "rcvd seq"  ETV
+vector 702  NClients.srv.tcp  "rcvd ack"  ETV
+vector 698  NClients.srv.tcp  "send window"  ETV
+vector 700  NClients.srv.tcp  "sent ack"  ETV
+vector 713  NClients.srv.tcp  "rcvd seq"  ETV
+vector 714  NClients.srv.tcp  "rcvd ack"  ETV
+vector 710  NClients.srv.tcp  "send window"  ETV
+vector 712  NClients.srv.tcp  "sent ack"  ETV
+vector 725  NClients.srv.tcp  "rcvd seq"  ETV
+vector 726  NClients.srv.tcp  "rcvd ack"  ETV
+vector 722  NClients.srv.tcp  "send window"  ETV
+vector 724  NClients.srv.tcp  "sent ack"  ETV
+vector 737  NClients.srv.tcp  "rcvd seq"  ETV
+vector 738  NClients.srv.tcp  "rcvd ack"  ETV
+vector 734  NClients.srv.tcp  "send window"  ETV
+vector 736  NClients.srv.tcp  "sent ack"  ETV
+vector 341  NClients.cli[11].tcp  "rcvd seq"  ETV
+vector 342  NClients.cli[11].tcp  "rcvd ack"  ETV
+vector 338  NClients.cli[11].tcp  "send window"  ETV
+vector 344  NClients.cli[11].tcp  cwnd  ETV
+vector 339  NClients.cli[11].tcp  "send seq"  ETV
+vector 343  NClients.cli[11].tcp  "unacked bytes"  ETV
+vector 116  NClients.cli[11].ppp[0].queue  "queue length"  ETV
+vector 749  NClients.srv.tcp  "rcvd seq"  ETV
+vector 750  NClients.srv.tcp  "rcvd ack"  ETV
+vector 746  NClients.srv.tcp  "send window"  ETV
+vector 748  NClients.srv.tcp  "sent ack"  ETV
+vector 353  NClients.cli[12].tcp  "rcvd seq"  ETV
+vector 354  NClients.cli[12].tcp  "rcvd ack"  ETV
+vector 350  NClients.cli[12].tcp  "send window"  ETV
+vector 356  NClients.cli[12].tcp  cwnd  ETV
+vector 351  NClients.cli[12].tcp  "send seq"  ETV
+vector 355  NClients.cli[12].tcp  "unacked bytes"  ETV
+vector 120  NClients.cli[12].ppp[0].queue  "queue length"  ETV
+vector 761  NClients.srv.tcp  "rcvd seq"  ETV
+vector 762  NClients.srv.tcp  "rcvd ack"  ETV
+vector 758  NClients.srv.tcp  "send window"  ETV
+vector 760  NClients.srv.tcp  "sent ack"  ETV
+vector 365  NClients.cli[13].tcp  "rcvd seq"  ETV
+vector 366  NClients.cli[13].tcp  "rcvd ack"  ETV
+vector 362  NClients.cli[13].tcp  "send window"  ETV
+vector 368  NClients.cli[13].tcp  cwnd  ETV
+vector 363  NClients.cli[13].tcp  "send seq"  ETV
+vector 367  NClients.cli[13].tcp  "unacked bytes"  ETV
+vector 124  NClients.cli[13].ppp[0].queue  "queue length"  ETV
+vector 773  NClients.srv.tcp  "rcvd seq"  ETV
+vector 774  NClients.srv.tcp  "rcvd ack"  ETV
+vector 770  NClients.srv.tcp  "send window"  ETV
+vector 772  NClients.srv.tcp  "sent ack"  ETV
+vector 377  NClients.cli[14].tcp  "rcvd seq"  ETV
+vector 378  NClients.cli[14].tcp  "rcvd ack"  ETV
+vector 374  NClients.cli[14].tcp  "send window"  ETV
+vector 380  NClients.cli[14].tcp  cwnd  ETV
+vector 375  NClients.cli[14].tcp  "send seq"  ETV
+vector 379  NClients.cli[14].tcp  "unacked bytes"  ETV
+vector 128  NClients.cli[14].ppp[0].queue  "queue length"  ETV
+vector 785  NClients.srv.tcp  "rcvd seq"  ETV
+vector 786  NClients.srv.tcp  "rcvd ack"  ETV
+vector 782  NClients.srv.tcp  "send window"  ETV
+vector 784  NClients.srv.tcp  "sent ack"  ETV
+vector 389  NClients.cli[15].tcp  "rcvd seq"  ETV
+vector 390  NClients.cli[15].tcp  "rcvd ack"  ETV
+vector 386  NClients.cli[15].tcp  "send window"  ETV
+vector 392  NClients.cli[15].tcp  cwnd  ETV
+vector 387  NClients.cli[15].tcp  "send seq"  ETV
+vector 391  NClients.cli[15].tcp  "unacked bytes"  ETV
+vector 132  NClients.cli[15].ppp[0].queue  "queue length"  ETV
+vector 797  NClients.srv.tcp  "rcvd seq"  ETV
+vector 798  NClients.srv.tcp  "rcvd ack"  ETV
+vector 794  NClients.srv.tcp  "send window"  ETV
+vector 796  NClients.srv.tcp  "sent ack"  ETV
+vector 401  NClients.cli[16].tcp  "rcvd seq"  ETV
+vector 402  NClients.cli[16].tcp  "rcvd ack"  ETV
+vector 398  NClients.cli[16].tcp  "send window"  ETV
+vector 404  NClients.cli[16].tcp  cwnd  ETV
+vector 399  NClients.cli[16].tcp  "send seq"  ETV
+vector 403  NClients.cli[16].tcp  "unacked bytes"  ETV
+vector 136  NClients.cli[16].ppp[0].queue  "queue length"  ETV
+vector 809  NClients.srv.tcp  "rcvd seq"  ETV
+vector 810  NClients.srv.tcp  "rcvd ack"  ETV
+vector 806  NClients.srv.tcp  "send window"  ETV
+vector 808  NClients.srv.tcp  "sent ack"  ETV
+vector 413  NClients.cli[17].tcp  "rcvd seq"  ETV
+vector 414  NClients.cli[17].tcp  "rcvd ack"  ETV
+vector 410  NClients.cli[17].tcp  "send window"  ETV
+vector 416  NClients.cli[17].tcp  cwnd  ETV
+vector 411  NClients.cli[17].tcp  "send seq"  ETV
+vector 415  NClients.cli[17].tcp  "unacked bytes"  ETV
+vector 140  NClients.cli[17].ppp[0].queue  "queue length"  ETV
+vector 692  NClients.srv.tcp  cwnd  ETV
+vector 691  NClients.srv.tcp  "unacked bytes"  ETV
+vector 425  NClients.cli[18].tcp  "rcvd seq"  ETV
+vector 426  NClients.cli[18].tcp  "rcvd ack"  ETV
+vector 422  NClients.cli[18].tcp  "send window"  ETV
+vector 428  NClients.cli[18].tcp  cwnd  ETV
+vector 423  NClients.cli[18].tcp  "send seq"  ETV
+vector 427  NClients.cli[18].tcp  "unacked bytes"  ETV
+vector 144  NClients.cli[18].ppp[0].queue  "queue length"  ETV
+vector 704  NClients.srv.tcp  cwnd  ETV
+vector 703  NClients.srv.tcp  "unacked bytes"  ETV
+vector 437  NClients.cli[19].tcp  "rcvd seq"  ETV
+vector 438  NClients.cli[19].tcp  "rcvd ack"  ETV
+vector 434  NClients.cli[19].tcp  "send window"  ETV
+vector 440  NClients.cli[19].tcp  cwnd  ETV
+vector 435  NClients.cli[19].tcp  "send seq"  ETV
+vector 439  NClients.cli[19].tcp  "unacked bytes"  ETV
+vector 148  NClients.cli[19].ppp[0].queue  "queue length"  ETV
+vector 716  NClients.srv.tcp  cwnd  ETV
+vector 715  NClients.srv.tcp  "unacked bytes"  ETV
+vector 321  NClients.cli[9].tcp  ssthresh  ETV
+vector 449  NClients.cli[20].tcp  "rcvd seq"  ETV
+vector 450  NClients.cli[20].tcp  "rcvd ack"  ETV
+vector 446  NClients.cli[20].tcp  "send window"  ETV
+vector 452  NClients.cli[20].tcp  cwnd  ETV
+vector 447  NClients.cli[20].tcp  "send seq"  ETV
+vector 451  NClients.cli[20].tcp  "unacked bytes"  ETV
+vector 152  NClients.cli[20].ppp[0].queue  "queue length"  ETV
+vector 728  NClients.srv.tcp  cwnd  ETV
+vector 727  NClients.srv.tcp  "unacked bytes"  ETV
+vector 333  NClients.cli[10].tcp  ssthresh  ETV
+vector 461  NClients.cli[21].tcp  "rcvd seq"  ETV
+vector 462  NClients.cli[21].tcp  "rcvd ack"  ETV
+vector 458  NClients.cli[21].tcp  "send window"  ETV
+vector 464  NClients.cli[21].tcp  cwnd  ETV
+vector 459  NClients.cli[21].tcp  "send seq"  ETV
+vector 463  NClients.cli[21].tcp  "unacked bytes"  ETV
+vector 156  NClients.cli[21].ppp[0].queue  "queue length"  ETV
+vector 740  NClients.srv.tcp  cwnd  ETV
+vector 739  NClients.srv.tcp  "unacked bytes"  ETV
+vector 752  NClients.srv.tcp  cwnd  ETV
+vector 751  NClients.srv.tcp  "unacked bytes"  ETV
+vector 764  NClients.srv.tcp  cwnd  ETV
+vector 763  NClients.srv.tcp  "unacked bytes"  ETV
+vector 776  NClients.srv.tcp  cwnd  ETV
+vector 775  NClients.srv.tcp  "unacked bytes"  ETV
+vector 788  NClients.srv.tcp  cwnd  ETV
+vector 787  NClients.srv.tcp  "unacked bytes"  ETV
+vector 687  NClients.srv.tcp  "send seq"  ETV
+vector 800  NClients.srv.tcp  cwnd  ETV
+vector 799  NClients.srv.tcp  "unacked bytes"  ETV
+vector 346  NClients.cli[11].tcp  "measured RTT"  ETV
+vector 347  NClients.cli[11].tcp  "smoothed RTT"  ETV
+vector 348  NClients.cli[11].tcp  RTTVAR  ETV
+vector 349  NClients.cli[11].tcp  RTO  ETV
+vector 699  NClients.srv.tcp  "send seq"  ETV
+vector 812  NClients.srv.tcp  cwnd  ETV
+vector 811  NClients.srv.tcp  "unacked bytes"  ETV
+vector 711  NClients.srv.tcp  "send seq"  ETV
+vector 735  NClients.srv.tcp  "send seq"  ETV
+vector 723  NClients.srv.tcp  "send seq"  ETV
+vector 747  NClients.srv.tcp  "send seq"  ETV
+vector 358  NClients.cli[12].tcp  "measured RTT"  ETV
+vector 359  NClients.cli[12].tcp  "smoothed RTT"  ETV
+vector 360  NClients.cli[12].tcp  RTTVAR  ETV
+vector 361  NClients.cli[12].tcp  RTO  ETV
+vector 759  NClients.srv.tcp  "send seq"  ETV
+vector 771  NClients.srv.tcp  "send seq"  ETV
+vector 663  NClients.srv.tcp  "send seq"  ETV
+vector 694  NClients.srv.tcp  "measured RTT"  ETV
+vector 695  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 696  NClients.srv.tcp  RTTVAR  ETV
+vector 697  NClients.srv.tcp  RTO  ETV
+vector 370  NClients.cli[13].tcp  "measured RTT"  ETV
+vector 371  NClients.cli[13].tcp  "smoothed RTT"  ETV
+vector 372  NClients.cli[13].tcp  RTTVAR  ETV
+vector 373  NClients.cli[13].tcp  RTO  ETV
+vector 394  NClients.cli[15].tcp  "measured RTT"  ETV
+vector 395  NClients.cli[15].tcp  "smoothed RTT"  ETV
+vector 396  NClients.cli[15].tcp  RTTVAR  ETV
+vector 397  NClients.cli[15].tcp  RTO  ETV
+vector 706  NClients.srv.tcp  "measured RTT"  ETV
+vector 707  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 708  NClients.srv.tcp  RTTVAR  ETV
+vector 709  NClients.srv.tcp  RTO  ETV
+vector 718  NClients.srv.tcp  "measured RTT"  ETV
+vector 719  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 720  NClients.srv.tcp  RTTVAR  ETV
+vector 721  NClients.srv.tcp  RTO  ETV
+vector 382  NClients.cli[14].tcp  "measured RTT"  ETV
+vector 383  NClients.cli[14].tcp  "smoothed RTT"  ETV
+vector 384  NClients.cli[14].tcp  RTTVAR  ETV
+vector 385  NClients.cli[14].tcp  RTO  ETV
+vector 406  NClients.cli[16].tcp  "measured RTT"  ETV
+vector 407  NClients.cli[16].tcp  "smoothed RTT"  ETV
+vector 408  NClients.cli[16].tcp  RTTVAR  ETV
+vector 409  NClients.cli[16].tcp  RTO  ETV
+vector 730  NClients.srv.tcp  "measured RTT"  ETV
+vector 731  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 732  NClients.srv.tcp  RTTVAR  ETV
+vector 733  NClients.srv.tcp  RTO  ETV
+vector 742  NClients.srv.tcp  "measured RTT"  ETV
+vector 743  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 744  NClients.srv.tcp  RTTVAR  ETV
+vector 745  NClients.srv.tcp  RTO  ETV
+vector 418  NClients.cli[17].tcp  "measured RTT"  ETV
+vector 419  NClients.cli[17].tcp  "smoothed RTT"  ETV
+vector 420  NClients.cli[17].tcp  RTTVAR  ETV
+vector 421  NClients.cli[17].tcp  RTO  ETV
+vector 754  NClients.srv.tcp  "measured RTT"  ETV
+vector 755  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 756  NClients.srv.tcp  RTTVAR  ETV
+vector 757  NClients.srv.tcp  RTO  ETV
+vector 430  NClients.cli[18].tcp  "measured RTT"  ETV
+vector 431  NClients.cli[18].tcp  "smoothed RTT"  ETV
+vector 432  NClients.cli[18].tcp  RTTVAR  ETV
+vector 433  NClients.cli[18].tcp  RTO  ETV
+vector 766  NClients.srv.tcp  "measured RTT"  ETV
+vector 767  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 768  NClients.srv.tcp  RTTVAR  ETV
+vector 769  NClients.srv.tcp  RTO  ETV
+704	3965	4.000602	1024
+704	3965	4.000602	2048
+704	4761	4.0059108	3072
+706	4761	4.0059108	0.0038144
+707	4761	4.0059108	0.0004768
+708	4761	4.0059108	0.6567268
+709	4761	4.0059108	2.627384
+698	3452	4.0001884	14336
+698	3965	4.000602	14336
+698	4761	4.0059108	14336
+699	4306	4.0020964	1000048
+700	3452	4.0001884	250001
+700	4303	4.0020964	250334
+700	4306	4.0020964	250334
+700	4766	4.0059484	250335
+700	4769	4.0059484	250335
+701	3452	4.0001884	250000
+701	3965	4.000602	250001
+701	4303	4.0020964	250001
+701	4761	4.0059108	250334
+701	4766	4.0059484	250334
+701	5435	4.0111636	250335
+702	3452	4.0001884	0
+702	3965	4.000602	1000048
+702	4303	4.0020964	1000048
+702	4761	4.0059108	1001026
+702	4766	4.0059484	1001026
+702	5435	4.0111636	1001027
+703	3965	4.000602	0
+703	4306	4.0020964	978
+703	4761	4.0059108	0
+703	4769	4.0059484	1
+716	4011	4.0006396	1024
+716	4011	4.0006396	2048
+716	4836	4.0063556	3072
+718	4836	4.0063556	0.0038616
+719	4836	4.0063556	0.0004827
+720	4836	4.0063556	0.6567327
+721	4836	4.0063556	2.6274135
+710	3477	4.000226	14336
+710	4011	4.0006396	14336
+710	4836	4.0063556	14336
+711	4358	4.002494	1000057
+712	3477	4.000226	250001
+712	4355	4.002494	250372
+712	4358	4.002494	250372
+712	4846	4.0063932	250373
+712	4849	4.0063932	250373
+713	3477	4.000226	250000
+713	4011	4.0006396	250001
+713	4355	4.002494	250001
+713	4836	4.0063556	250372
+713	4846	4.0063932	250372
+713	5466	4.0112388	250373
+714	3477	4.000226	0
+714	4011	4.0006396	1000057
+714	4355	4.002494	1000057
+714	4836	4.0063556	1000777
+714	4846	4.0063932	1000777
+714	5466	4.0112388	1000778
+715	4011	4.0006396	0
+715	4358	4.002494	720
+715	4836	4.0063556	0
+715	4849	4.0063932	1
+728	4061	4.0006772	1024
+728	4061	4.0006772	2048
+728	4936	4.0066668	3072
+730	4936	4.0066668	0.0034864
+731	4936	4.0066668	0.0004358
+732	4936	4.0066668	0.6566858
+733	4936	4.0066668	2.627179
+722	3507	4.0002636	14336
+722	4061	4.0006772	14336
+722	4936	4.0066668	14336
+723	4416	4.0031804	1000066
+724	3507	4.0002636	250001
+724	4413	4.0031804	250390
+724	4416	4.0031804	250390
+724	4941	4.0067044	250391
+724	4944	4.0067044	250391
+725	3507	4.0002636	250000
+725	4061	4.0006772	250001
+725	4413	4.0031804	250001
+725	4936	4.0066668	250390
+725	4941	4.0067044	250390
+725	5502	4.011314	250391
+726	3507	4.0002636	0
+726	4061	4.0006772	1000066
+726	4413	4.0031804	1000066
+726	4936	4.0066668	1000127
+726	4941	4.0067044	1000127
+726	5502	4.011314	1000128
+727	4061	4.0006772	0
+727	4416	4.0031804	61
+727	4936	4.0066668	0
+727	4944	4.0067044	1
+vector 778  NClients.srv.tcp  "measured RTT"  ETV
+vector 779  NClients.srv.tcp  "smoothed RTT"  ETV
+vector 780  NClients.srv.tcp  RTTVAR  ETV
+vector 781  NClients.srv.tcp  RTO  ETV
+752	4132	4.0007524	1024
+752	4132	4.0007524	2048
+752	5094	4.0084052	3072
+752	5154	4.009262	4096
+752	5533	4.0113972	5120
+754	5094	4.0084052	0.0049
+754	5533	4.0113972	0.0021352
+755	5094	4.0084052	0.0006125
+755	5533	4.0113972	0.0008028375
+756	5094	4.0084052	0.6568625
+756	5533	4.0113972	0.574945025
+757	5094	4.0084052	2.6280625
+757	5533	4.0113972	2.3005829375
+746	3591	4.0003388	14336
+746	4132	4.0007524	14336
+746	5094	4.0084052	14336
+746	5154	4.009262	14336
+746	5533	4.0113972	14336
+747	4451	4.0035052	1000085
+747	4451	4.0035052	1001109
+747	5154	4.009262	1002133
+748	3591	4.0003388	250001
+748	4448	4.0035052	250360
+748	4451	4.0035052	250360
+748	4451	4.0035052	250360
+748	5154	4.009262	250360
+748	5538	4.0114348	250361
+748	5541	4.0114348	250361
+749	3591	4.0003388	250000
+749	4132	4.0007524	250001
+749	4448	4.0035052	250001
+749	5094	4.0084052	250360
+749	5154	4.009262	250360
+749	5533	4.0113972	250360
+749	5538	4.0114348	250360
+749	5667	4.0120116	250361
+750	3591	4.0003388	0
+750	4132	4.0007524	1000085
+750	4448	4.0035052	1000085
+750	5094	4.0084052	1001109
+750	5154	4.009262	1002133
+750	5533	4.0113972	1002138
+750	5538	4.0114348	1002138
+750	5667	4.0120116	1002139
+751	4132	4.0007524	0
+751	4451	4.0035052	2048
+751	5094	4.0084052	1024
+751	5154	4.009262	0
+751	5154	4.009262	5
+751	5533	4.0113972	0
+751	5541	4.0114348	1
+764	4149	4.00079	1024
+764	4149	4.00079	2048
+764	5252	4.0101564	3072
+764	5345	4.0110132	4096
+764	5704	4.0121436	5120
+766	5252	4.0101564	0.0063336
+766	5704	4.0121436	0.0011304
+767	5252	4.0101564	0.0007917
+767	5704	4.0121436	0.0008340375
+768	5252	4.0101564	0.6570417
+768	5704	4.0121436	0.574953825
+769	5252	4.0101564	2.6289585
+769	5704	4.0121436	2.3006493375
+758	3645	4.0003764	14336
+758	4149	4.00079	14336
+758	5252	4.0101564	14336
+758	5345	4.0110132	14336
+758	5704	4.0121436	14336
+759	4493	4.0038228	1000095
+759	4493	4.0038228	1001119
+759	5345	4.0110132	1002143
+760	3645	4.0003764	250001
+760	4490	4.0038228	250351
+760	4493	4.0038228	250351
+760	4493	4.0038228	250351
+760	5345	4.0110132	250351
+760	5709	4.0121812	250352
+760	5712	4.0121812	250352
+761	3645	4.0003764	250000
+761	4149	4.00079	250001
+761	4490	4.0038228	250001
+761	5252	4.0101564	250351
+761	5345	4.0110132	250351
+761	5704	4.0121436	250351
+761	5709	4.0121812	250351
+761	5785	4.0125204	250352
+762	3645	4.0003764	0
+762	4149	4.00079	1000095
+762	4490	4.0038228	1000095
+762	5252	4.0101564	1001119
+762	5345	4.0110132	1002143
+762	5704	4.0121436	1002402
+762	5709	4.0121812	1002402
+762	5785	4.0125204	1002403
+763	4149	4.00079	0
+763	4493	4.0038228	2048
+763	5252	4.0101564	1024
+763	5345	4.0110132	0
+763	5345	4.0110132	259
+763	5704	4.0121436	0
+763	5712	4.0121812	1
+vector 777  NClients.srv.tcp  ssthresh  ETV
+776	4168	4.0008276	1024
+776	4168	4.0008276	2048
+776	5638	4.0119076	3072
+776	5787	6.6417691	1024
+776	5835	6.6453475	2048
+776	5904	6.6462859	2560
+777	5787	6.6417691	2048
+778	5638	4.0119076	0.0077784
+778	5904	6.6462859	0.0009384
+779	5638	4.0119076	0.0009723
+779	5904	6.6462859	0.0009680625
+780	5638	4.0119076	0.6572223
+780	5904	6.6462859	0.57507375
+781	5638	4.0119076	2.6298615
+781	5904	6.6462859	2.3012630625
+770	3699	4.000414	14336
+770	4168	4.0008276	14336
+770	5638	4.0119076	14336
+770	5835	6.6453475	14336
+770	5904	6.6462859	14336
+771	4530	4.0041292	1000104
+771	4530	4.0041292	1001128
+771	5787	6.6417691	1001128
+771	5835	6.6453475	1002152
+772	3699	4.000414	250001
+772	4527	4.0041292	250337
+772	4530	4.0041292	250337
+772	4530	4.0041292	250337
+772	5787	6.6417691	250337
+772	5835	6.6453475	250337
+772	5909	6.6463235	250338
+772	5912	6.6463235	250338
+773	3699	4.000414	250000
+773	4168	4.0008276	250001
+773	4527	4.0041292	250001
+773	5638	4.0119076	250337
+773	5835	6.6453475	250337
+773	5904	6.6462859	250337
+773	5909	6.6463235	250337
+773	5985	6.6466627	250338
+774	3699	4.000414	0
+774	4168	4.0008276	1000104
+774	4527	4.0041292	1000104
+774	5638	4.0119076	1001128
+774	5835	6.6453475	1002152
+774	5904	6.6462859	1002351
+774	5909	6.6463235	1002351
+774	5985	6.6466627	1002352
+775	4168	4.0008276	0
+775	4530	4.0041292	2048
+775	5638	4.0119076	1024
+775	5835	6.6453475	0
+775	5835	6.6453475	199
+775	5904	6.6462859	0
+775	5912	6.6463235	1
+vector 441  NClients.cli[19].tcp  ssthresh  ETV
+vector 453  NClients.cli[20].tcp  ssthresh  ETV
+vector 465  NClients.cli[21].tcp  ssthresh  ETV
+vector 783  NClients.srv.tcp  "send seq"  ETV
+vector 795  NClients.srv.tcp  "send seq"  ETV
+vector 807  NClients.srv.tcp  "send seq"  ETV
+vector 669  NClients.srv.tcp  ssthresh  ETV
+60	273	1.0000377	1
+60	274	1.0000377	2
+60	275	1.0000377	3
+60	276	1.0000377	4
+60	277	1.0000377	5
+60	278	1.0000377	6
+60	279	1.0000377	7
+60	280	1.0000377	8
+60	281	1.0000377	9
+60	282	1.0000377	10
+60	303	1.0000753	9
+60	309	1.0001129	8
+60	320	1.0001505	7
+60	340	1.0001881	6
+60	365	1.0002257	5
+60	395	1.0002633	4
+60	430	1.0003009	3
+60	479	1.0003385	2
+60	532	1.0003393	3
+60	533	1.0003761	2
+60	586	1.0003769	3
+60	587	1.0004137	2
+60	640	1.0004145	3
+60	641	1.0004513	2
+60	694	1.0004521	3
+60	695	1.0004889	2
+60	748	1.0004897	3
+60	749	1.0005265	2
+60	802	1.0005273	3
+60	803	1.0005641	2
+60	853	1.0005649	3
+60	854	1.0006017	2
+60	899	1.0006025	3
+60	900	1.0006393	2
+60	940	1.0006401	3
+60	944	1.0006713	4
+60	945	1.0006769	3
+60	980	1.0006777	4
+60	984	1.0007033	5
+60	985	1.0007145	4
+60	1006	1.0007153	5
+60	1007	1.0007521	4
+60	1027	1.0007537	5
+60	1031	1.0007657	6
+60	1032	1.0007897	5
+60	1052	1.0007969	6
+60	1067	1.0008393	7
+60	1077	1.0008737	8
+60	1081	1.0008889	9
+60	1085	1.0009457	10
+60	1094	1.0011217	9
+60	1100	1.0011593	8
+60	1111	1.0014857	7
+60	1121	1.0015233	6
+60	1168	1.0018625	5
+60	1198	1.0021761	4
+60	1215	1.0024833	3
+60	1250	1.0027953	2
+60	1274	1.0031041	1
+60	1308	1.0033905	0
+60	3380	4.0000377	1
+60	3381	4.0000377	2
+60	3382	4.0000377	3
+60	3383	4.0000377	4
+60	3384	4.0000377	5
+60	3385	4.0000377	6
+60	3386	4.0000377	7
+60	3387	4.0000377	8
+60	3388	4.0000377	9
+60	3389	4.0000377	10
+60	3399	4.0000753	9
+60	3405	4.0001129	8
+60	3416	4.0001505	7
+60	3436	4.0001881	6
+60	3461	4.0002257	5
+60	3491	4.0002633	4
+60	3526	4.0003009	3
+60	3575	4.0003385	2
+60	3628	4.0003393	3
+60	3629	4.0003761	2
+60	3682	4.0003769	3
+60	3683	4.0004137	2
+60	3736	4.0004145	3
+60	3737	4.0004513	2
+60	3790	4.0004521	3
+60	3791	4.0004889	2
+60	3844	4.0004897	3
+60	3845	4.0005265	2
+60	3898	4.0005273	3
+60	3899	4.0005641	2
+60	3949	4.0005649	3
+60	3950	4.0006017	2
+60	3995	4.0006025	3
+60	3996	4.0006393	2
+60	4041	4.0006401	3
+60	4045	4.0006609	4
+60	4046	4.0006769	3
+60	4086	4.0006777	4
+60	4090	4.0006809	5
+60	4091	4.0007145	4
+60	4112	4.0007153	5
+60	4116	4.0007489	6
+60	4117	4.0007521	5
+60	4134	4.0007897	4
+60	4154	4.0007985	5
+60	4158	4.0008009	6
+60	4173	4.0008521	7
+60	4183	4.0008825	8
+60	4187	4.0009089	9
+60	4191	4.0009361	10
+60	4208	4.0011113	9
+60	4214	4.0011489	8
+60	4225	4.0014529	7
+60	4235	4.0014905	6
+60	4277	4.0018249	5
+60	4312	4.0021337	4
+60	4344	4.0024825	3
+60	4377	4.0028073	2
+60	4394	4.0031249	1
+60	4433	4.0034313	0
+60	6010	7.0009729	1
+60	6014	7.0009753	2
+60	6015	7.0012697	1
+60	6021	7.0016025	0
+61	283	1.0000377	1
+61	284	1.0000377	1
+61	285	1.0000377	1
+61	286	1.0000377	1
+61	287	1.0000377	1
+61	288	1.0000377	1
+61	289	1.0000377	1
+61	290	1.0000377	1
+61	291	1.0000377	1
+61	292	1.0000377	1
+61	293	1.0000377	1
+61	294	1.0000377	1
+61	295	1.0000377	1
+61	296	1.0000377	1
+61	297	1.0000377	1
+61	298	1.0000377	1
+61	299	1.0000377	1
+61	300	1.0000377	1
+61	301	1.0000377	1
+61	1089	1.0009737	1
+61	1093	1.0010369	1
+61	3390	4.0000377	1
+61	3391	4.0000377	1
+61	3392	4.0000377	1
+61	3393	4.0000377	1
+61	3394	4.0000377	1
+61	3395	4.0000377	1
+61	3396	4.0000377	1
+61	3397	4.0000377	1
+61	4195	4.0009737	1
+61	4199	4.0009993	1
+61	4203	4.0010105	1
+61	4207	4.0010129	1
+62	1355	1.003575	1
+62	1393	1.0040134	2
+62	1402	1.004051	3
+62	1421	1.004310999999	4
+62	1426	1.004348599999	5
+62	1443	1.0043942	4
+62	1449	1.0044318	3
+62	1464	1.004744599999	4
+62	1474	1.004782199999	5
+62	1480	1.0048702	4
+62	1486	1.0049078	3
+62	1497	1.005167799999	2
+62	1503	1.005205399999	1
+62	1659	1.005601399999	0
+62	1698	1.005676599999	1
+62	1767	1.006495799999	0
+62	1833	1.007427799999	1
+62	1867	1.008246999999	0
+62	1902	1.008322199999	1
+62	1933	1.008450199999	2
+62	1943	1.008487799999	3
+62	1953	1.009141399999	2
+62	1964	1.009178999999	1
+62	1990	1.009306999999	0
+62	2147	1.011018199999	1
+62	2152	1.011055799999	2
+62	2153	1.011058199999	1
+62	2172	1.011093399999	2
+62	2208	1.011356599999	3
+62	2209	1.011874999999	2
+62	2215	1.011912599999	1
+62	2230	1.011950199999	0
+62	2438	1.013107799999	1
+62	2443	1.013145399999	2
+62	2453	1.013229399999	3
+62	2454	1.013926999999	2
+62	2469	1.013964599999	1
+62	2480	1.014002199999	0
+62	2694	1.014980599999	1
+62	2699	1.015018199999	2
+62	2704	1.015055799999	3
+62	2709	1.015093399999	4
+62	2718	1.015130999999	5
+62	2723	1.015168599999	6
+62	2727	1.015344599999	7
+62	2728	1.015799799999	6
+62	2743	1.015837399999	5
+62	2754	1.015874999999	4
+62	2770	1.015912599999	3
+62	2792	1.015950199999	2
+62	2813	1.015987799999	1
+62	2835	1.016025399999	0
+62	4402	4.0031294	1
+62	4464	4.0037414	0
+62	4543	4.0041574	1
+62	4637	4.004771	2
+62	4647	4.0048086	3
+62	4653	4.0049398	2
+62	4659	4.0049774	1
+62	4674	4.0054854	2
+62	4679	4.005523	3
+62	4680	4.005591	2
+62	4690	4.0056094	3
+62	4691	4.0056286	2
+62	4700	4.005647	3
+62	4805	4.0063054	2
+62	4821	4.006343	1
+62	4855	4.0064294	0
+62	5033	4.007435	1
+62	5034	4.0082542	0
+62	5129	4.0091862	1
+62	5187	4.0100054	0
+62	5222	4.0100806	1
+62	5237	4.0101182	2
+62	5247	4.0101558	3
+62	5257	4.0101934	4
+62	5262	4.010231	5
+62	5267	4.0102686	6
+62	5272	4.0103062	7
+62	5276	4.0103478	8
+62	5286	4.0108998	7
+62	5297	4.0109374	6
+62	5308	4.010975	5
+62	5324	4.0110126	4
+62	5350	4.0110502	3
+62	5366	4.0110878	2
+62	5388	4.0111254	1
+62	5409	4.011163	0
+62	5567	4.0115406	1
+62	5571	4.0115782	2
+62	5572	4.0117478	1
+62	5587	4.0117854	0
+62	6142	7.0037262	1
+62	6147	7.0038302	2
+62	6157	7.0038678	3
+62	6165	7.0045454	2
+62	6171	7.004583	1
+62	6182	7.004687	0
+64	1104	1.0011594	1
+64	1105	1.0014538	0
+64	1115	1.0014858	1
+64	1116	1.0014914	0
+64	1125	1.0015234	1
+64	1141	1.0018178	0
+64	1202	1.0021762	1
+64	1209	1.0022018	0
+64	1219	1.0024834	1
+64	1220	1.0025154	0
+64	1254	1.0027954	1
+64	1255	1.0028226	0
+64	1278	1.0031042	1
+64	1279	1.0031346	0
+64	1312	1.0033906	1
+64	1313	1.0034434	0
+64	1359	1.0036962	1
+64	1360	1.0037298	0
+64	4218	4.001149	1
+64	4219	4.001433	0
+64	4229	4.001453	1
+64	4230	4.0014706	0
+64	4239	4.0014906	1
+64	4255	4.0017746	0
+64	4316	4.0021338	1
+64	4323	4.0021594	0
+64	4381	4.0028074	1
+64	4382	4.0028314	0
+64	4398	4.003125	1
+64	4403	4.0031562	0
+64	4437	4.0034314	1
+64	4438	4.0034738	0
+64	4463	4.0037274	1
+64	4475	4.0037802	0
+64	6025	7.0016026	1
+64	6026	7.0016034	0
+64	6035	7.0019002	1
+64	6036	7.0019362	0
+66	1249	1.0027181	1
+66	1288	1.0031565	2
+66	1307	1.0031941	3
+66	1322	1.003454099999	4
+66	1344	1.003491699999	5
+66	1345	1.0035373	4
+66	1351	1.0035749	3
+66	1383	1.003887699999	4
+66	1388	1.003925299999	5
+66	1389	1.0040133	4
+66	1398	1.0040509	3
+66	1417	1.004310899999	2
+66	1422	1.004348499999	1
+66	1460	1.004744499999	0
+66	1479	1.004819699999	1
+66	1678	1.005638899999	0
+66	1793	1.006570899999	1
+66	1808	1.007390099999	0
+66	1843	1.007465299999	1
+66	1861	1.007593299999	2
+66	1866	1.007630899999	3
+66	1882	1.008284499999	2
+66	1898	1.008322099999	1
+66	1929	1.008450099999	0
+66	2116	1.010161299999	1
+66	2121	1.010198899999	2
+66	2122	1.010201299999	1
+66	2137	1.010236499999	2
+66	2142	1.010499699999	3
+66	2143	1.011018099999	2
+66	2148	1.011055699999	1
+66	2168	1.011093299999	0
+66	2286	1.012250899999	1
+66	2291	1.012288499999	2
+66	2296	1.012372499999	3
+66	2423	1.013070099999	2
+66	2434	1.013107699999	1
+66	2439	1.013145299999	0
+66	2547	1.014123699999	1
+66	2557	1.014161299999	2
+66	2582	1.014198899999	3
+66	2592	1.014236499999	4
+66	2641	1.014396499999	5
+66	2645	1.014434099999	6
+66	2679	1.014942899999	5
+66	2690	1.014980499999	4
+66	2695	1.015018099999	3
+66	2700	1.015055699999	2
+66	2705	1.015093299999	1
+66	2713	1.015110899999	2
+66	2714	1.015130899999	1
+66	2719	1.015168499999	0
+66	4343	4.0024797	1
+66	4388	4.0030917	0
+66	4432	4.0033373	1
+66	4506	4.0039509	2
+66	4511	4.0039885	3
+66	4516	4.0041197	2
+66	4539	4.0041573	1
+66	4627	4.0046653	2
+66	4632	4.0047029	3
+66	4633	4.0047709	2
+66	4642	4.0047893	3
+66	4643	4.0048085	2
+66	4652	4.0048269	3
+66	4670	4.0054853	2
+66	4675	4.0055229	1
+66	4686	4.0056093	0
+66	4906	4.0065781	1
+66	5013	4.0073973	0
+66	5074	4.0083293	1
+66	5104	4.0091485	0
+66	5139	4.0092237	1
+66	5149	4.0092613	2
+66	5162	4.0092989	3
+66	5167	4.0093365	4
+66	5172	4.0093741	5
+66	5177	4.0094117	6
+66	5182	4.0094493	7
+66	5186	4.0094909	8
+66	5202	4.0100429	7
+66	5218	4.0100805	6
+66	5233	4.0101181	5
+66	5243	4.0101557	4
+66	5253	4.0101933	3
+66	5258	4.0102309	2
+66	5263	4.0102685	1
+66	5268	4.0103061	0
+66	5552	4.0114725	1
+66	5553	4.0115029	0
+66	5562	4.0115101	1
+66	5563	4.0115405	0
+66	6121	7.0028693	1
+66	6126	7.0029733	2
+66	6131	7.0030109	3
+66	6132	7.0036885	2
+66	6138	7.0037261	1
+66	6143	7.0038301	0
+68	1120	1.0014915	1
+68	1126	1.0017859	0
+68	1145	1.0018179	1
+68	1146	1.0018235	0
+68	1162	1.0018555	1
+68	1184	1.0021499	0
+68	1224	1.0025155	1
+68	1225	1.0025411	0
+68	1259	1.0028227	1
+68	1260	1.0028547	0
+68	1283	1.0031347	1
+68	1289	1.0031619	0
+68	1317	1.0034435	1
+68	1323	1.0034739	0
+68	1364	1.0037299	1
+68	1365	1.0037827	0
+68	1397	1.0040355	1
+68	1403	1.0040691	0
+68	4234	4.0014707	1
+68	4240	4.0017547	0
+68	4259	4.0017747	1
+68	4260	4.0017923	0
+68	4276	4.0018123	1
+68	4298	4.0020963	0
+68	4338	4.0024683	1
+68	4350	4.0024939	0
+68	4407	4.0031563	1
+68	4408	4.0031803	0
+68	4442	4.0034739	1
+68	4443	4.0035051	0
+68	4479	4.0037803	1
+68	4485	4.0038227	0
+68	4515	4.0040763	1
+68	4522	4.0041291	0
+68	6040	7.0019363	1
+68	6041	7.0019371	0
+68	6080	7.0022339	1
+68	6081	7.0022699	0
+72	478	1.0003016	1
+72	516	1.0003392	0
+72	2373	1.012691999999	1
+72	2374	1.012729599999	0
+76	529	1.0003392	1
+76	570	1.0003768	0
+76	1541	1.0053088	1
+76	1547	1.0053464	0
+80	583	1.0003768	1
+80	624	1.0004144	0
+80	1599	1.005427999998	1
+80	1610	1.005465599998	0
+84	637	1.0004144	1
+84	678	1.000452	0
+84	1717	1.005997599999	1
+84	1718	1.006035199999	0
+88	691	1.000452	1
+88	732	1.0004896	0
+88	2310	1.012476799999	1
+88	2311	1.012514399999	0
+92	745	1.0004896	1
+92	786	1.0005272	0
+92	2928	1.016377599999	1
+92	2929	1.016415199999	0
+96	799	1.0005272	1
+96	837	1.0005648	0
+96	2571	1.014170399999	1
+96	2583	1.014207999999	0
+100	850	1.0005648	1
+100	883	1.0006024	0
+100	2030	1.009435199999	1
+100	2031	1.009472799999	0
+104	896	1.0006024	1
+104	924	1.00064	0
+104	3108	1.018219199999	1
+104	3109	1.018256799999	0
+108	937	1.00064	1
+108	964	1.0006776	0
+112	977	1.0006776	1
+112	1002	1.0007152	0
+116	3574	4.0003016	1
+116	3612	4.0003392	0
+116	4557	4.0043912	1
+116	4574	4.0044288	0
+120	3625	4.0003392	1
+120	3666	4.0003768	0
+120	4725	4.00576	1
+120	4726	4.0057976	0
+124	3679	4.0003768	1
+124	3720	4.0004144	0
+124	4788	4.0062048	1
+124	4789	4.0062424	0
+128	3733	4.0004144	1
+128	3774	4.000452	0
+128	4884	4.006516	1
+128	4896	4.0065536	0
+132	3787	4.000452	1
+132	3828	4.0004896	0
+132	4963	4.0069824	1
+132	4964	4.00702	0
+136	3841	4.0004896	1
+136	3882	4.0005272	0
+136	5481	4.0112464	1
+136	5492	4.011284	0
+140	3895	4.0005272	1
+140	3933	4.0005648	0
+140	5662	4.0119928	1
+140	5669	4.0120304	0
+144	3946	4.0005648	1
+144	3979	4.0006024	0
+144	5868	6.6461351	1
+144	5869	6.6461727	0
+148	3992	4.0006024	1
+148	4021	4.00064	0
+152	4038	4.00064	1
+152	4066	4.0006776	0
+152	6222	7.0047912	1
+152	6223	7.0048288	0
+156	4083	4.0006776	1
+156	4108	4.0007152	0
+192	1140	1.001786	1
+192	1149	1.0018236	0
+192	1195	1.00215	1
+192	1197	1.00215	2
+192	1236	1.0025412	3
+192	1238	1.0025412	4
+192	1239	1.0026804	3
+192	1245	1.002718	2
+192	1271	1.0028548	3
+192	1273	1.0028548	4
+192	1284	1.0031564	3
+192	1300	1.003162	4
+192	1302	1.003162	5
+192	1303	1.003194	4
+192	1318	1.003453999999	3
+192	1335	1.003474	4
+192	1338	1.003474	5
+192	1339	1.003474	6
+192	1340	1.003491599999	5
+192	1376	1.0037828	6
+192	1378	1.0037828	7
+192	1379	1.003887599999	6
+192	1384	1.003925199999	5
+192	1414	1.0040692	6
+192	1416	1.0040692	7
+192	1438	1.0043748	8
+192	1441	1.0043748	9
+192	1442	1.0043748	10
+192	1465	1.004781999999	9
+192	1475	1.004819599999	8
+192	1575	1.005402	9
+192	1626	1.0054972	10
+192	1689	1.005676399999	9
+192	1764	1.006185999999	10
+192	1773	1.006533199999	9
+192	1789	1.006570799999	8
+192	1824	1.007427599999	7
+192	1839	1.007465199999	6
+192	1856	1.007503599999	7
+192	1857	1.007593199999	6
+192	1862	1.007630799999	5
+192	1927	1.008397999999	6
+192	1928	1.008397999999	7
+192	1934	1.008487599999	6
+192	1996	1.009344399999	5
+192	2077	1.009623599999	6
+192	2079	1.009623599999	7
+192	2111	1.010149199999	8
+192	2112	1.010161199999	7
+192	2117	1.010198799999	6
+192	2133	1.010236399999	5
+192	2138	1.010499599999	4
+192	2197	1.011209199999	5
+192	2198	1.011209199999	6
+192	2199	1.011356399999	5
+192	2266	1.012213199999	4
+192	2282	1.012250799999	3
+192	2287	1.012288399999	2
+192	2292	1.012372399999	1
+192	2357	1.012665199999	2
+192	2359	1.012665199999	3
+192	2420	1.012880399999	4
+192	2422	1.012880399999	5
+192	2444	1.013229199999	4
+192	2522	1.014085999999	3
+192	2543	1.014123599999	2
+192	2553	1.014161199999	1
+192	2578	1.014198799999	0
+192	2636	1.014358799999	1
+192	2637	1.014396399999	0
+192	2978	1.016565999999	1
+192	2979	1.016603599999	0
+192	3158	1.018407599999	1
+192	3159	1.018445199999	0
+192	4254	4.0017548	1
+192	4263	4.0017924	0
+192	4309	4.0020964	1
+192	4311	4.0020964	2
+192	4329	4.002442	1
+192	4339	4.0024796	0
+192	4361	4.002494	1
+192	4363	4.002494	2
+192	4374	4.0028028	3
+192	4376	4.0028028	4
+192	4419	4.0031804	5
+192	4421	4.0031804	6
+192	4422	4.0032996	5
+192	4428	4.0033372	4
+192	4455	4.0035052	5
+192	4458	4.0035052	6
+192	4459	4.0035052	7
+192	4497	4.0038228	8
+192	4500	4.0038228	9
+192	4501	4.0038228	10
+192	4502	4.0039508	9
+192	4507	4.0039884	8
+192	4534	4.0041292	9
+192	4537	4.0041292	10
+192	4623	4.0046652	9
+192	4628	4.0047028	8
+192	4638	4.0047892	7
+192	4648	4.0048268	6
+192	4706	4.0056836	5
+192	4772	4.0059484	6
+192	4774	4.0059484	7
+192	4852	4.0063932	8
+192	4854	4.0063932	9
+192	4885	4.0065404	8
+192	4902	4.006578	7
+192	4947	4.0067044	8
+192	4949	4.0067044	9
+192	5010	4.0071708	10
+192	5024	4.0074348	9
+192	5049	4.0082916	8
+192	5070	4.0083292	7
+192	5120	4.009186	6
+192	5135	4.0092236	5
+192	5145	4.0092612	4
+192	5157	4.009262	5
+192	5158	4.0092988	4
+192	5163	4.0093364	3
+192	5168	4.009374	2
+192	5173	4.0094116	1
+192	5178	4.0094492	0
+192	5547	4.0114348	1
+192	5548	4.0114724	0
+192	5718	4.0121812	1
+192	5719	4.0122188	0
+192	5918	6.6463235	1
+192	5919	6.6463611	0
+192	6055	7.0019372	1
+192	6056	7.0019748	0
+192	6092	7.00227	1
+192	6094	7.00227	2
+192	6106	7.0025676	3
+192	6109	7.0025676	4
+192	6110	7.0025676	5
+192	6111	7.0028316	4
+192	6117	7.0028692	3
+192	6122	7.0029732	2
+192	6127	7.0030108	1
+192	6148	7.0038676	0
+192	6163	7.0044252	1
+192	6164	7.0044252	2
+192	6188	7.0047244	1
+193	1628	1.0054972	1
+193	1675	1.005616399998	1
+193	1677	1.005616399998	1
+193	1766	1.006185999999	1
+193	4538	4.0041292	1
+193	4569	4.0044252	1
+193	4572	4.0044252	1
+193	4573	4.0044252	1
+193	4620	4.0045796	1
+193	4622	4.0045796	1
+193	5012	4.0071708	1
+206	469	1.0003016	14336
+206	1183	1.0019368	14336
+206	2803	1.015950399999	14336
+207	473	1.0003016	250001
+208	32	1	0
+208	469	1.0003016	250038
+208	473	1.0003016	250038
+208	1518	1.0052512	251062
+208	2364	1.012691999999	252036
+208	2367	1.012691999999	252036
+208	2823	1.015987999999	252037
+209	469	1.0003016	250037
+209	1183	1.0019368	250038
+209	1518	1.0052512	250038
+209	2364	1.012691999999	251062
+209	2803	1.015950399999	252036
+209	2823	1.015987999999	252036
+210	469	1.0003016	250001
+210	1183	1.0019368	250369
+210	1518	1.0052512	250369
+210	2364	1.012691999999	250369
+210	2803	1.015950399999	250370
+210	2823	1.015987999999	250370
+211	473	1.0003016	368
+211	1183	1.0019368	0
+211	2367	1.012691999999	1
+211	2803	1.015950399999	0
+212	469	1.0003016	1024
+212	1183	1.0019368	2048
+212	2803	1.015950399999	3072
+214	1183	1.0019368	0.0016352
+215	1183	1.0019368	0.0002044
+216	1183	1.0019368	0.6564544
+217	1183	1.0019368	2.626022
+218	520	1.0003392	14336
+218	1459	1.0044696	14336
+218	2240	1.011950399999	14336
+219	524	1.0003392	250001
+220	33	1	0
+220	520	1.0003392	250048
+220	524	1.0003392	250048
+220	1532	1.0053088	250549
+220	1535	1.0053088	250549
+221	520	1.0003392	250047
+221	1459	1.0044696	250048
+221	1532	1.0053088	250048
+221	2240	1.011950399999	250549
+222	520	1.0003392	250001
+222	1459	1.0044696	250362
+222	1532	1.0053088	250362
+222	2240	1.011950399999	250363
+223	524	1.0003392	361
+223	1459	1.0044696	0
+223	1535	1.0053088	1
+223	2240	1.011950399999	0
+224	520	1.0003392	1024
+224	1459	1.0044696	2048
+224	2240	1.011950399999	3072
+226	1459	1.0044696	0.0041304
+227	1459	1.0044696	0.0005163
+228	1459	1.0044696	0.6567663
+229	1459	1.0044696	2.6275815
+230	574	1.0003768	14336
+230	1496	1.0049456	14336
+231	578	1.0003768	250001
+232	34	1	0
+232	574	1.0003768	250057
+232	578	1.0003768	250057
+232	1590	1.005427999998	250335
+232	1593	1.005427999998	250335
+233	574	1.0003768	250056
+233	1496	1.0049456	250057
+233	1590	1.005427999998	250057
+234	574	1.0003768	250001
+234	1496	1.0049456	250378
+234	1590	1.005427999998	250378
+235	578	1.0003768	377
+235	1496	1.0049456	0
+235	1593	1.005427999998	1
+236	574	1.0003768	1024
+236	1496	1.0049456	2048
+238	1496	1.0049456	0.0045688
+239	1496	1.0049456	0.0005711
+240	1496	1.0049456	0.6568211
+241	1496	1.0049456	2.6278555
+242	628	1.0004144	14336
+242	1513	1.005243199999	14336
+242	2250	1.011987999999	14336
+243	632	1.0004144	250001
+244	35	1	0
+244	628	1.0004144	250066
+244	632	1.0004144	250066
+244	1708	1.005997599999	250514
+244	1711	1.005997599999	250514
+245	628	1.0004144	250065
+245	1513	1.005243199999	250066
+245	1708	1.005997599999	250066
+245	2250	1.011987999999	250514
+246	628	1.0004144	250001
+246	1513	1.005243199999	250346
+246	1708	1.005997599999	250346
+246	2250	1.011987999999	250347
+247	632	1.0004144	345
+247	1513	1.005243199999	0
+247	1711	1.005997599999	1
+247	2250	1.011987999999	0
+248	628	1.0004144	1024
+248	1513	1.005243199999	2048
+248	2250	1.011987999999	3072
+250	1513	1.005243199999	0.004828799999
+251	1513	1.005243199999	0.000603599999
+252	1513	1.005243199999	0.6568536
+253	1513	1.005243199999	2.628017999999
+254	682	1.000452	14336
+254	1703	1.005676799999	14336
+254	2764	1.015875199999	14336
+255	686	1.000452	250001
+256	36	1	0
+256	682	1.000452	250076
+256	686	1.000452	250076
+256	1803	1.007352799999	251100
+256	2301	1.012476799999	251382
+256	2304	1.012476799999	251382
+256	2780	1.015912799999	251383
+257	682	1.000452	250075
+257	1703	1.005676799999	250076
+257	1803	1.007352799999	250076
+257	2301	1.012476799999	251100
+257	2764	1.015875199999	251382
+257	2780	1.015912799999	251382
+258	682	1.000452	250001
+258	1703	1.005676799999	250338
+258	1803	1.007352799999	250338
+258	2301	1.012476799999	250338
+258	2764	1.015875199999	250339
+258	2780	1.015912799999	250339
+259	686	1.000452	337
+259	1703	1.005676799999	0
+259	2304	1.012476799999	1
+259	2764	1.015875199999	0
+260	682	1.000452	1024
+260	1703	1.005676799999	2048
+260	2764	1.015875199999	3072
+262	1703	1.005676799999	0.005224799999
+263	1703	1.005676799999	0.000653099999
+264	1703	1.005676799999	0.6569031
+265	1703	1.005676799999	2.628265499999
+266	736	1.0004896	14336
+266	1798	1.006571199999	14336
+266	3028	1.016716799999	14336
+267	740	1.0004896	250001
+268	37	1	0
+268	736	1.0004896	250085
+268	740	1.0004896	250085
+268	1877	1.008247199999	251109
+268	1948	1.009103999999	252133
+268	2464	1.013927199999	253157
+268	2650	1.014783999999	254181
+268	2919	1.016377599999	254354
+268	2922	1.016377599999	254354
+268	3038	1.016754399999	254355
+269	736	1.0004896	250084
+269	1798	1.006571199999	250085
+269	1877	1.008247199999	250085
+269	1948	1.009103999999	251109
+269	2464	1.013927199999	252133
+269	2650	1.014783999999	253157
+269	2919	1.016377599999	254181
+269	3028	1.016716799999	254354
+269	3038	1.016754399999	254354
+270	736	1.0004896	250001
+270	1798	1.006571199999	250344
+270	1877	1.008247199999	250344
+270	1948	1.009103999999	250344
+270	2464	1.013927199999	250344
+270	2650	1.014783999999	250344
+270	2919	1.016377599999	250344
+270	3028	1.016716799999	250345
+270	3038	1.016754399999	250345
+271	740	1.0004896	343
+271	1798	1.006571199999	0
+271	2922	1.016377599999	1
+271	3028	1.016716799999	0
+272	736	1.0004896	1024
+272	1798	1.006571199999	2048
+272	3028	1.016716799999	3072
+274	1798	1.006571199999	0.006081599999
+275	1798	1.006571199999	0.000760199999
+276	1798	1.006571199999	0.6570102
+277	1798	1.006571199999	2.628800999999
+278	790	1.0005272	14336
+278	1907	1.008322399999	14336
+278	2846	1.016025599999	14336
+279	794	1.0005272	250001
+280	38	1	0
+280	790	1.0005272	250095
+280	794	1.0005272	250095
+280	2084	1.009998399999	251119
+280	2562	1.014170399999	251177
+280	2565	1.014170399999	251177
+280	2860	1.016063199999	251178
+281	790	1.0005272	250094
+281	1907	1.008322399999	250095
+281	2084	1.009998399999	250095
+281	2562	1.014170399999	251119
+281	2846	1.016025599999	251177
+281	2860	1.016063199999	251177
+282	790	1.0005272	250001
+282	1907	1.008322399999	250340
+282	2084	1.009998399999	250340
+282	2562	1.014170399999	250340
+282	2846	1.016025599999	250341
+282	2860	1.016063199999	250341
+283	794	1.0005272	339
+283	1907	1.008322399999	0
+283	2565	1.014170399999	1
+283	2846	1.016025599999	0
+284	790	1.0005272	1024
+284	1907	1.008322399999	2048
+284	2846	1.016025599999	3072
+286	1907	1.008322399999	0.007795199999
+287	1907	1.008322399999	0.000974399999
+288	1907	1.008322399999	0.6572244
+289	1907	1.008322399999	2.629871999999
+290	841	1.0005648	14336
+290	1979	1.009216799999	14336
+290	2490	1.014002399999	14336
+291	845	1.0005648	250001
+292	39	1	0
+292	841	1.0005648	250104
+292	845	1.0005648	250104
+292	2021	1.009435199999	250217
+292	2024	1.009435199999	250217
+292	2500	1.014039999999	250218
+293	841	1.0005648	250103
+293	1979	1.009216799999	250104
+293	2021	1.009435199999	250104
+293	2490	1.014002399999	250217
+293	2500	1.014039999999	250217
+294	841	1.0005648	250001
+294	1979	1.009216799999	250312
+294	2021	1.009435199999	250312
+294	2490	1.014002399999	250313
+294	2500	1.014039999999	250313
+295	845	1.0005648	311
+295	1979	1.009216799999	0
+295	2024	1.009435199999	1
+295	2490	1.014002399999	0
+296	841	1.0005648	1024
+296	1979	1.009216799999	2048
+296	2490	1.014002399999	3072
+298	1979	1.009216799999	0.008651999999
+299	1979	1.009216799999	0.001081499999
+300	1979	1.009216799999	0.6573315
+301	1979	1.009216799999	2.630407499999
+302	887	1.0006024	14336
+302	2016	1.009382399999	14336
+302	3194	1.018558399999	14336
+303	891	1.0006024	250001
+304	40	1	0
+304	887	1.0006024	250113
+304	891	1.0006024	250113
+304	2163	1.011058399999	251137
+304	2225	1.011915199999	252161
+304	2738	1.015799999999	253185
+304	2999	1.016656799999	254209
+304	3099	1.018219199999	254603
+304	3102	1.018219199999	254603
+304	3199	1.018595999999	254604
+305	887	1.0006024	250112
+305	2016	1.009382399999	250113
+305	2163	1.011058399999	250113
+305	2225	1.011915199999	251137
+305	2738	1.015799999999	252161
+305	2999	1.016656799999	253185
+305	3099	1.018219199999	254209
+305	3194	1.018558399999	254603
+305	3199	1.018595999999	254603
+306	887	1.0006024	250001
+306	2016	1.009382399999	250336
+306	2163	1.011058399999	250336
+306	2225	1.011915199999	250336
+306	2738	1.015799999999	250336
+306	2999	1.016656799999	250336
+306	3099	1.018219199999	250336
+306	3194	1.018558399999	250337
+306	3199	1.018595999999	250337
+307	891	1.0006024	335
+307	2016	1.009382399999	0
+307	3102	1.018219199999	1
+307	3194	1.018558399999	0
+308	887	1.0006024	1024
+308	2016	1.009382399999	2048
+308	3194	1.018558399999	3072
+310	2016	1.009382399999	0.008779999999
+311	2016	1.009382399999	0.001097499999
+312	2016	1.009382399999	0.6573475
+313	2016	1.009382399999	2.630487499999
+314	928	1.00064	14336
+315	932	1.00064	250001
+315	4019	4.00064	250001
+316	41	1	0
+316	928	1.00064	250123
+316	932	1.00064	250123
+316	4019	4.00064	250123
+317	928	1.00064	250122
+318	928	1.00064	250001
+319	932	1.00064	323
+320	928	1.00064	1024
+320	4019	4.00064	1024
+321	4019	4.00064	2048
+326	968	1.0006776	14336
+327	972	1.0006776	250001
+327	4064	4.0006776	250001
+328	42	1	0
+328	968	1.0006776	250132
+328	972	1.0006776	250132
+328	4064	4.0006776	250132
+329	968	1.0006776	250131
+330	968	1.0006776	250001
+331	972	1.0006776	355
+332	968	1.0006776	1024
+332	4064	4.0006776	1024
+333	4064	4.0006776	2048
+338	3565	4.0003016	14336
+338	4297	4.0019056	14336
+339	3569	4.0003016	250001
+340	43	1	0
+340	3227	4	0
+340	3565	4.0003016	1000038
+340	3569	4.0003016	1000038
+340	4548	4.0043912	1000803
+340	4551	4.0043912	1000803
+341	3565	4.0003016	1000037
+341	4297	4.0019056	1000038
+341	4548	4.0043912	1000038
+342	3565	4.0003016	250001
+342	4297	4.0019056	250356
+342	4548	4.0043912	250356
+343	3569	4.0003016	355
+343	4297	4.0019056	0
+343	4551	4.0043912	1
+344	3565	4.0003016	1024
+344	4297	4.0019056	2048
+346	4297	4.0019056	0.001604
+347	4297	4.0019056	0.0002005
+348	4297	4.0019056	0.6564505
+349	4297	4.0019056	2.6260025
+350	3616	4.0003392	14336
+350	4484	4.0038168	14336
+350	5318	4.0109752	14336
+351	3620	4.0003392	250001
+352	44	1	0
+352	3228	4	0
+352	3616	4.0003392	1000048
+352	3620	4.0003392	1000048
+352	4716	4.00576	1001026
+352	4719	4.00576	1001026
+352	5334	4.0110128	1001027
+353	3616	4.0003392	1000047
+353	4484	4.0038168	1000048
+353	4716	4.00576	1000048
+353	5318	4.0109752	1001026
+353	5334	4.0110128	1001026
+354	3616	4.0003392	250001
+354	4484	4.0038168	250334
+354	4716	4.00576	250334
+354	5318	4.0109752	250335
+354	5334	4.0110128	250335
+355	3620	4.0003392	333
+355	4484	4.0038168	0
+355	4719	4.00576	1
+355	5318	4.0109752	0
+356	3616	4.0003392	1024
+356	4484	4.0038168	2048
+356	5318	4.0109752	3072
+358	4484	4.0038168	0.0034776
+359	4484	4.0038168	0.0004347
+360	4484	4.0038168	0.6566847
+361	4484	4.0038168	2.6271735
+362	3670	4.0003768	14336
+362	4669	4.0050152	14336
+362	5361	4.0110504	14336
+363	3674	4.0003768	250001
+364	45	1	0
+364	3229	4	0
+364	3670	4.0003768	1000057
+364	3674	4.0003768	1000057
+364	4779	4.0062048	1000777
+364	4782	4.0062048	1000777
+364	5376	4.011088	1000778
+365	3670	4.0003768	1000056
+365	4669	4.0050152	1000057
+365	4779	4.0062048	1000057
+365	5361	4.0110504	1000777
+365	5376	4.011088	1000777
+366	3670	4.0003768	250001
+366	4669	4.0050152	250372
+366	4779	4.0062048	250372
+366	5361	4.0110504	250373
+366	5376	4.011088	250373
+367	3674	4.0003768	371
+367	4669	4.0050152	0
+367	4782	4.0062048	1
+367	5361	4.0110504	0
+368	3670	4.0003768	1024
+368	4669	4.0050152	2048
+368	5361	4.0110504	3072
+370	4669	4.0050152	0.0046384
+371	4669	4.0050152	0.0005798
+372	4669	4.0050152	0.6568298
+373	4669	4.0050152	2.627899
+374	3724	4.0004144	14336
+374	4841	4.0063808	14336
+374	5399	4.0111256	14336
+375	3728	4.0004144	250001
+376	46	1	0
+376	3230	4	0
+376	3724	4.0004144	1000066
+376	3728	4.0004144	1000066
+376	4875	4.006516	1000127
+376	4878	4.006516	1000127
+376	5419	4.0111632	1000128
+377	3724	4.0004144	1000065
+377	4841	4.0063808	1000066
+377	4875	4.006516	1000066
+377	5399	4.0111256	1000127
+377	5419	4.0111632	1000127
+378	3724	4.0004144	250001
+378	4841	4.0063808	250390
+378	4875	4.006516	250390
+378	5399	4.0111256	250391
+378	5419	4.0111632	250391
+379	3728	4.0004144	389
+379	4841	4.0063808	0
+379	4878	4.006516	1
+379	5399	4.0111256	0
+380	3724	4.0004144	1024
+380	4841	4.0063808	2048
+380	5399	4.0111256	3072
+382	4841	4.0063808	0.0059664
+383	4841	4.0063808	0.0007458
+384	4841	4.0063808	0.6569958
+385	4841	4.0063808	2.628729
+386	3778	4.000452	14336
+386	4705	4.0056664	14336
+386	5442	4.0112008	14336
+387	3782	4.000452	250001
+388	47	1	0
+388	3231	4	0
+388	3778	4.000452	1000076
+388	3782	4.000452	1000076
+388	4954	4.0069824	1000875
+388	4957	4.0069824	1000875
+389	3778	4.000452	1000075
+389	4705	4.0056664	1000076
+389	4954	4.0069824	1000076
+389	5442	4.0112008	1000875
+390	3778	4.000452	250001
+390	4705	4.0056664	250340
+390	4954	4.0069824	250340
+390	5442	4.0112008	250341
+391	3782	4.000452	339
+391	4705	4.0056664	0
+391	4957	4.0069824	1
+391	5442	4.0112008	0
+392	3778	4.000452	1024
+392	4705	4.0056664	2048
+392	5442	4.0112008	3072
+394	4705	4.0056664	0.0052144
+395	4705	4.0056664	0.0006518
+396	4705	4.0056664	0.6569018
+397	4705	4.0056664	2.628259
+398	3832	4.0004896	14336
+398	4870	4.0065048	14336
+398	5607	4.0118232	14336
+399	3836	4.0004896	250001
+400	48	1	0
+400	3232	4	0
+400	3832	4.0004896	1000085
+400	3836	4.0004896	1000085
+400	5044	4.0082544	1001109
+400	5099	4.0091112	1002133
+400	5472	4.0112464	1002138
+400	5475	4.0112464	1002138
+400	5617	4.0118608	1002139
+401	3832	4.0004896	1000084
+401	4870	4.0065048	1000085
+401	5044	4.0082544	1000085
+401	5099	4.0091112	1001109
+401	5472	4.0112464	1002133
+401	5607	4.0118232	1002138
+401	5617	4.0118608	1002138
+402	3832	4.0004896	250001
+402	4870	4.0065048	250360
+402	5044	4.0082544	250360
+402	5099	4.0091112	250360
+402	5472	4.0112464	250360
+402	5607	4.0118232	250361
+402	5617	4.0118608	250361
+403	3836	4.0004896	359
+403	4870	4.0065048	0
+403	5475	4.0112464	1
+403	5607	4.0118232	0
+404	3832	4.0004896	1024
+404	4870	4.0065048	2048
+404	5607	4.0118232	3072
+406	4870	4.0065048	0.0060152
+407	4870	4.0065048	0.0007519
+408	4870	4.0065048	0.6570019
+409	4870	4.0065048	2.6287595
+410	3886	4.0005272	14336
+410	5079	4.0083296	14336
+410	5754	4.012332	14336
+411	3890	4.0005272	250001
+412	49	1	0
+412	3233	4	0
+412	3886	4.0005272	1000095
+412	3890	4.0005272	1000095
+412	5197	4.0100056	1001119
+412	5281	4.0108624	1002143
+412	5653	4.0119928	1002402
+412	5656	4.0119928	1002402
+412	5759	4.0123696	1002403
+413	3886	4.0005272	1000094
+413	5079	4.0083296	1000095
+413	5197	4.0100056	1000095
+413	5281	4.0108624	1001119
+413	5653	4.0119928	1002143
+413	5754	4.012332	1002402
+413	5759	4.0123696	1002402
+414	3886	4.0005272	250001
+414	5079	4.0083296	250351
+414	5197	4.0100056	250351
+414	5281	4.0108624	250351
+414	5653	4.0119928	250351
+414	5754	4.012332	250352
+414	5759	4.0123696	250352
+415	3890	4.0005272	350
+415	5079	4.0083296	0
+415	5656	4.0119928	1
+415	5754	4.012332	0
+416	3886	4.0005272	1024
+416	5079	4.0083296	2048
+416	5754	4.012332	3072
+418	5079	4.0083296	0.0078024
+419	5079	4.0083296	0.0009753
+420	5079	4.0083296	0.6572253
+421	5079	4.0083296	2.6298765
+422	3937	4.0005648	14336
+422	5227	4.0100808	14336
+422	5954	6.6464743	14336
+423	3941	4.0005648	250001
+424	50	1	0
+424	3234	4	0
+424	3937	4.0005648	1000104
+424	3941	4.0005648	1000104
+424	5582	4.0117568	1001128
+424	5811	6.6451967	1002152
+424	5859	6.6461351	1002351
+424	5862	6.6461351	1002351
+424	5959	6.6465119	1002352
+425	3937	4.0005648	1000103
+425	5227	4.0100808	1000104
+425	5582	4.0117568	1000104
+425	5811	6.6451967	1001128
+425	5859	6.6461351	1002152
+425	5954	6.6464743	1002351
+425	5959	6.6465119	1002351
+426	3937	4.0005648	250001
+426	5227	4.0100808	250337
+426	5582	4.0117568	250337
+426	5811	6.6451967	250337
+426	5859	6.6461351	250337
+426	5954	6.6464743	250338
+426	5959	6.6465119	250338
+427	3941	4.0005648	336
+427	5227	4.0100808	0
+427	5862	6.6461351	1
+427	5954	6.6464743	0
+428	3937	4.0005648	1024
+428	5227	4.0100808	2048
+428	5954	6.6464743	3072
+430	5227	4.0100808	0.009516
+431	5227	4.0100808	0.0011895
+432	5227	4.0100808	0.6574395
+433	5227	4.0100808	2.6309475
+434	3983	4.0006024	14336
+434	6076	7.002088	14336
+435	3987	4.0006024	250001
+435	5987	7.0006024	250001
+436	51	1	0
+436	3235	4	0
+436	3983	4.0006024	1000113
+436	3987	4.0006024	1000113
+436	5987	7.0006024	1000113
+437	3983	4.0006024	1000112
+437	6076	7.002088	1000113
+438	3983	4.0006024	250001
+438	6076	7.002088	250371
+439	3987	4.0006024	370
+439	6076	7.002088	0
+440	3983	4.0006024	1024
+440	5987	7.0006024	1024
+440	6076	7.002088	2048
+441	5987	7.0006024	2048
+446	4028	4.00064	14336
+446	6181	7.0046208	14336
+447	4033	4.00064	250001
+447	5992	7.00064	250001
+448	52	1	0
+448	3236	4	0
+448	4028	4.00064	1000123
+448	4033	4.00064	1000123
+448	5992	7.00064	1000123
+448	6213	7.0047912	1000206
+448	6216	7.0047912	1000206
+449	4028	4.00064	1000122
+449	6181	7.0046208	1000123
+449	6213	7.0047912	1000123
+450	4028	4.00064	250001
+450	6181	7.0046208	250370
+450	6213	7.0047912	250370
+451	4033	4.00064	369
+451	6181	7.0046208	0
+451	6216	7.0047912	1
+452	4028	4.00064	1024
+452	5992	7.00064	1024
+452	6181	7.0046208	2048
+453	5992	7.00064	2048
+458	4073	4.0006776	14336
+458	6208	7.0047624	14336
+459	4078	4.0006776	250001
+459	5997	7.0006776	250001
+460	53	1	0
+460	3237	4	0
+460	4073	4.0006776	1000132
+460	4078	4.0006776	1000132
+460	5997	7.0006776	1000132
+461	4073	4.0006776	1000131
+461	6208	7.0047624	1000132
+462	4073	4.0006776	250001
+462	6208	7.0047624	250326
+463	4078	4.0006776	325
+463	6208	7.0047624	0
+464	4073	4.0006776	1024
+464	5997	7.0006776	1024
+464	6208	7.0047624	2048
+465	5997	7.0006776	2048
+472	54	1	0
+472	3238	4	0
+484	55	1	0
+484	3239	4	0
+496	56	1	0
+496	3240	4	0
+508	57	1	0
+508	3241	4	0
+520	58	1	0
+520	3242	4	0
+532	59	1	0
+532	3243	4	0
+544	60	1	0
+544	3244	4	0
+556	61	1	0
+556	3245	4	0
+566	356	1.0001884	14336
+566	869	1.000602	14336
+566	1609	1.0054596	14336
+567	1192	1.00215	250048
+568	356	1.0001884	250001
+568	1189	1.00215	250362
+568	1192	1.00215	250362
+568	1620	1.0054972	250363
+568	1623	1.0054972	250363
+569	356	1.0001884	250000
+569	869	1.000602	250001
+569	1189	1.00215	250001
+569	1609	1.0054596	250362
+569	1620	1.0054972	250362
+570	356	1.0001884	0
+570	869	1.000602	250048
+570	1189	1.00215	250048
+570	1609	1.0054596	250549
+570	1620	1.0054972	250549
+571	869	1.000602	0
+571	1192	1.00215	501
+571	1609	1.0054596	0
+571	1623	1.0054972	1
+572	869	1.000602	1024
+572	869	1.000602	2048
+572	1609	1.0054596	3072
+574	1609	1.0054596	0.0033096
+575	1609	1.0054596	0.0004137
+576	1609	1.0054596	0.6566637
+577	1609	1.0054596	2.6270685
+578	381	1.000226	14336
+578	915	1.0006396	14336
+578	1658	1.005578799998	14336
+579	1233	1.0025412	250057
+580	381	1.000226	250001
+580	1230	1.0025412	250378
+580	1233	1.0025412	250378
+580	1669	1.005616399998	250379
+580	1672	1.005616399998	250379
+581	381	1.000226	250000
+581	915	1.0006396	250001
+581	1230	1.0025412	250001
+581	1658	1.005578799998	250378
+581	1669	1.005616399998	250378
+582	381	1.000226	0
+582	915	1.0006396	250057
+582	1230	1.0025412	250057
+582	1658	1.005578799998	250335
+582	1669	1.005616399998	250335
+583	915	1.0006396	0
+583	1233	1.0025412	278
+583	1658	1.005578799998	0
+583	1672	1.005616399998	1
+584	915	1.0006396	1024
+584	915	1.0006396	2048
+584	1658	1.005578799998	3072
+586	1658	1.005578799998	0.003037599998
+587	1658	1.005578799998	0.000379699999
+588	1658	1.005578799998	0.6566297
+589	1658	1.005578799998	2.626898499999
+590	411	1.0002636	14336
+590	960	1.0006772	14336
+590	1753	1.006148399999	14336
+591	1268	1.0028548	250066
+592	411	1.0002636	250001
+592	1265	1.0028548	250346
+592	1268	1.0028548	250346
+592	1758	1.006185999999	250347
+592	1761	1.006185999999	250347
+593	411	1.0002636	250000
+593	960	1.0006772	250001
+593	1265	1.0028548	250001
+593	1753	1.006148399999	250346
+593	1758	1.006185999999	250346
+594	411	1.0002636	0
+594	960	1.0006772	250066
+594	1265	1.0028548	250066
+594	1753	1.006148399999	250514
+594	1758	1.006185999999	250514
+595	960	1.0006772	0
+595	1268	1.0028548	448
+595	1753	1.006148399999	0
+595	1761	1.006185999999	1
+596	960	1.0006772	1024
+596	960	1.0006772	2048
+596	1753	1.006148399999	3072
+598	1753	1.006148399999	0.003293599999
+599	1753	1.006148399999	0.000411699999
+600	1753	1.006148399999	0.6566617
+601	1753	1.006148399999	2.627058499999
+662	711	1.0004892	14336
+662	1153	1.0018236	14336
+663	4565	4.0044252	250123
+663	4565	4.0044252	251147
+663	6158	7.0044252	250123
+663	6158	7.0044252	251147
+664	711	1.0004892	250001
+664	4562	4.0044252	250324
+664	4565	4.0044252	250324
+664	4565	4.0044252	250324
+664	6158	7.0044252	250324
+664	6158	7.0044252	250324
+665	711	1.0004892	250000
+665	1153	1.0018236	250001
+665	4562	4.0044252	250001
+666	711	1.0004892	0
+666	1153	1.0018236	250123
+666	4562	4.0044252	250123
+667	1153	1.0018236	0
+667	4565	4.0044252	2048
+668	1153	1.0018236	1024
+668	1153	1.0018236	2048
+668	6158	7.0044252	1024
+669	6158	7.0044252	2048
+674	765	1.0005268	14336
+674	1207	1.0021876	14336
+676	765	1.0005268	250001
+677	765	1.0005268	250000
+677	1207	1.0021876	250001
+678	765	1.0005268	0
+678	1207	1.0021876	250132
+679	1207	1.0021876	0
+680	1207	1.0021876	1024
+680	1207	1.0021876	2048
+686	3431	4.0001508	14336
+686	3915	4.0005644	14336
+686	4609	4.004542	14336
+687	4248	4.0017548	1000038
+688	3431	4.0001508	250001
+688	4245	4.0017548	250356
+688	4248	4.0017548	250356
+688	4614	4.0045796	250357
+688	4617	4.0045796	250357
+689	3431	4.0001508	250000
+689	3915	4.0005644	250001
+689	4245	4.0017548	250001
+689	4609	4.004542	250356
+689	4614	4.0045796	250356
+690	3431	4.0001508	0
+690	3915	4.0005644	1000038
+690	4245	4.0017548	1000038
+690	4609	4.004542	1000803
+690	4614	4.0045796	1000803
+691	3915	4.0005644	0
+691	4248	4.0017548	765
+691	4609	4.004542	0
+691	4617	4.0045796	1
+692	3915	4.0005644	1024
+692	3915	4.0005644	2048
+692	4609	4.004542	3072
+694	4609	4.004542	0.0027872
+695	4609	4.004542	0.0003484
+696	4609	4.004542	0.6565984
+697	4609	4.004542	2.626742
+734	3542	4.0003012	14336
+734	4106	4.0007148	14336
+734	4999	4.0071332	14336
+735	4371	4.0028028	1000076
+736	3542	4.0003012	250001
+736	4368	4.0028028	250340
+736	4371	4.0028028	250340
+736	5004	4.0071708	250341
+736	5007	4.0071708	250341
+737	3542	4.0003012	250000
+737	4106	4.0007148	250001
+737	4368	4.0028028	250001
+737	4999	4.0071332	250340
+737	5004	4.0071708	250340
+738	3542	4.0003012	0
+738	4106	4.0007148	1000076
+738	4368	4.0028028	1000076
+738	4999	4.0071332	1000875
+738	5004	4.0071708	1000875
+739	4106	4.0007148	0
+739	4371	4.0028028	799
+739	4999	4.0071332	0
+739	5007	4.0071708	1
+740	4106	4.0007148	1024
+740	4106	4.0007148	2048
+740	4999	4.0071332	3072
+742	4999	4.0071332	0.0043304
+743	4999	4.0071332	0.0005413
+744	4999	4.0071332	0.6567913
+745	4999	4.0071332	2.6277065
+782	3753	4.0004516	14336
+782	4178	4.0008652	14336
+783	6049	7.0019372	1000113
+784	3753	4.0004516	250001
+784	6046	7.0019372	250371
+784	6049	7.0019372	250371
+785	3753	4.0004516	250000
+785	4178	4.0008652	250001
+785	6046	7.0019372	250001
+786	3753	4.0004516	0
+786	4178	4.0008652	1000113
+786	6046	7.0019372	1000113
+787	4178	4.0008652	0
+787	6049	7.0019372	1024
+788	4178	4.0008652	1024
+788	4178	4.0008652	2048
+794	3807	4.0004892	14336
+794	4267	4.0017924	14336
+795	6089	7.00227	1000123
+796	3807	4.0004892	250001
+796	6086	7.00227	250370
+796	6089	7.00227	250370
+797	3807	4.0004892	250000
+797	4267	4.0017924	250001
+797	6086	7.00227	250001
+798	3807	4.0004892	0
+798	4267	4.0017924	1000123
+798	6086	7.00227	1000123
+799	4267	4.0017924	0
+799	6089	7.00227	83
+800	4267	4.0017924	1024
+800	4267	4.0017924	2048
+806	3861	4.0005268	14336
+806	4321	4.002134	14336
+807	6102	7.0025676	1000132
+807	6102	7.0025676	1001156
+808	3861	4.0005268	250001
+808	6099	7.0025676	250326
+808	6102	7.0025676	250326
+808	6102	7.0025676	250326
+809	3861	4.0005268	250000
+809	4321	4.002134	250001
+809	6099	7.0025676	250001
+810	3861	4.0005268	0
+810	4321	4.002134	1000132
+810	6099	7.0025676	1000132
+811	4321	4.002134	0
+811	6102	7.0025676	2048
+812	4321	4.002134	1024
+812	4321	4.002134	2048
